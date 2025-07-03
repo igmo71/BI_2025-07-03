@@ -1,0 +1,559 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>15.0.19623.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>BI.database</Name>
+    <FullPath>BI.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Predict - Основной Менеджер.cube</Name>
+      <FullPath>Predict - Основной Менеджер.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Predict - Основной Менеджер.partitions</Name>
+          <FullPath>Predict - Основной Менеджер.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Predict.cube</Name>
+      <FullPath>Predict.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Predict.partitions</Name>
+          <FullPath>Predict.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Vip.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Vip.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Vip.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Vip.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Мен.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Мен.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Мен.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Мен.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Себестоимость.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Себестоимость.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Себестоимость.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Себестоимость.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Цены Закупочные и Продажи.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Цены Закупочные и Продажи.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Цены Закупочные и Продажи.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Цены Закупочные и Продажи.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж Обороты.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж Обороты.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж Обороты.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж Обороты.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента - Виды Деятельности.cube</Name>
+      <FullPath>Заказ Клиента - Виды Деятельности.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента - Виды Деятельности.partitions</Name>
+          <FullPath>Заказ Клиента - Виды Деятельности.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента - Причины Отмены - Отделы.cube</Name>
+      <FullPath>Заказ Клиента - Причины Отмены - Отделы.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента - Причины Отмены - Отделы.partitions</Name>
+          <FullPath>Заказ Клиента - Причины Отмены - Отделы.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента - Реализация Товаров Услуг - Отчет О Розничных Продажах.cube</Name>
+      <FullPath>Заказ Клиента - Реализация Товаров Услуг - Отчет О Розничных Продажах.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента - Реализация Товаров Услуг - Отчет О Розничных Продажах.partitions</Name>
+          <FullPath>Заказ Клиента - Реализация Товаров Услуг - Отчет О Розничных Продажах.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента - Реализация Товаров Услуг.cube</Name>
+      <FullPath>Заказ Клиента - Реализация Товаров Услуг.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента - Реализация Товаров Услуг.partitions</Name>
+          <FullPath>Заказ Клиента - Реализация Товаров Услуг.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента.cube</Name>
+      <FullPath>Заказ Клиента.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента.partitions</Name>
+          <FullPath>Заказ Клиента.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ На Перемещение.cube</Name>
+      <FullPath>Заказ На Перемещение.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ На Перемещение.partitions</Name>
+          <FullPath>Заказ На Перемещение.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ЗаказКлиента - РеализацияТоваровУслуг - Источники Заявок.cube</Name>
+      <FullPath>ЗаказКлиента - РеализацияТоваровУслуг - Источники Заявок.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ЗаказКлиента - РеализацияТоваровУслуг - Источники Заявок.partitions</Name>
+          <FullPath>ЗаказКлиента - РеализацияТоваровУслуг - Источники Заявок.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ЗаказКлиента - РеализацияТоваровУслуг - Количество.cube</Name>
+      <FullPath>ЗаказКлиента - РеализацияТоваровУслуг - Количество.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ЗаказКлиента - РеализацияТоваровУслуг - Количество.partitions</Name>
+          <FullPath>ЗаказКлиента - РеализацияТоваровУслуг - Количество.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Закупки.cube</Name>
+      <FullPath>Закупки.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Закупки.partitions</Name>
+          <FullPath>Закупки.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Отчет О Розничных Продажах.cube</Name>
+      <FullPath>Отчет О Розничных Продажах.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Отчет О Розничных Продажах.partitions</Name>
+          <FullPath>Отчет О Розничных Продажах.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Отчет по Складским очередям.cube</Name>
+      <FullPath>Отчет по Складским очередям.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Отчет по Складским очередям.partitions</Name>
+          <FullPath>Отчет по Складским очередям.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Последние Продажи.cube</Name>
+      <FullPath>Партнеры - Последние Продажи.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Партнеры - Последние Продажи.partitions</Name>
+          <FullPath>Партнеры - Последние Продажи.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Реализация Товаров Услуг.cube</Name>
+      <FullPath>Реализация Товаров Услуг.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Реализация Товаров Услуг.partitions</Name>
+          <FullPath>Реализация Товаров Услуг.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Товары На Складах - Выручка И Себестоимость Продаж.cube</Name>
+      <FullPath>Товары На Складах - Выручка И Себестоимость Продаж.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Товары На Складах - Выручка И Себестоимость Продаж.partitions</Name>
+          <FullPath>Товары На Складах - Выручка И Себестоимость Продаж.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Товары На Складах - Оценка в Ценах Закупки.cube</Name>
+      <FullPath>Товары На Складах - Оценка в Ценах Закупки.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Товары На Складах - Оценка в Ценах Закупки.partitions</Name>
+          <FullPath>Товары На Складах - Оценка в Ценах Закупки.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Товары На Складах Остатки - Цена Закупки Усредненная.cube</Name>
+      <FullPath>Товары На Складах Остатки - Цена Закупки Усредненная.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Товары На Складах Остатки - Цена Закупки Усредненная.partitions</Name>
+          <FullPath>Товары На Складах Остатки - Цена Закупки Усредненная.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Товары На Складах.cube</Name>
+      <FullPath>Товары На Складах.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Товары На Складах.partitions</Name>
+          <FullPath>Товары На Складах.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>УникальныеПартнеры - ФактПродажи.cube</Name>
+      <FullPath>УникальныеПартнеры - ФактПродажи.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>УникальныеПартнеры - ФактПродажи.partitions</Name>
+          <FullPath>УникальныеПартнеры - ФактПродажи.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Уровень Сервиса.cube</Name>
+      <FullPath>Уровень Сервиса.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Уровень Сервиса.partitions</Name>
+          <FullPath>Уровень Сервиса.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Цены Номенклатуры.cube</Name>
+      <FullPath>Цены Номенклатуры.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Цены Номенклатуры.partitions</Name>
+          <FullPath>Цены Номенклатуры.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Currency Rates.dim</Name>
+      <FullPath>Currency Rates.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>v Calendar.dim</Name>
+      <FullPath>v Calendar.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Whs Report Тип Операции.dim</Name>
+      <FullPath>Whs Report Тип Операции.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Whs Report Тип Очереди.dim</Name>
+      <FullPath>Whs Report Тип Очереди.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Whs Ордера.dim</Name>
+      <FullPath>Whs Ордера.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Whs Склады.dim</Name>
+      <FullPath>Whs Склады.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Whs Сотрудники.dim</Name>
+      <FullPath>Whs Сотрудники.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Бизнес Регионы.dim</Name>
+      <FullPath>Бизнес Регионы.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Виды Деятельности.dim</Name>
+      <FullPath>Виды Деятельности.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Виды Номенклатуры.dim</Name>
+      <FullPath>Виды Номенклатуры.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Виды Цен.dim</Name>
+      <FullPath>Виды Цен.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Возвраты Расхождения - Номер Документа.dim</Name>
+      <FullPath>Возвраты Расхождения - Номер Документа.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Вид Деятельности НДС.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Вид Деятельности НДС.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Канал.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Канал.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Раздел Учета.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Раздел Учета.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Тип Запасов.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Тип Запасов.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Группы Пользователей.dim</Name>
+      <FullPath>Группы Пользователей.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента.dim</Name>
+      <FullPath>Заказ Клиента.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Закупки - Хозяйственная Операция.dim</Name>
+      <FullPath>Закупки - Хозяйственная Операция.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Источники Заявок.dim</Name>
+      <FullPath>Источники Заявок.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Календарь По Месяцам.dim</Name>
+      <FullPath>Календарь По Месяцам.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Календарь.dim</Name>
+      <FullPath>Календарь.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура - Типы Упаковки.dim</Name>
+      <FullPath>Номенклатура - Типы Упаковки.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура - Ценовая Группа.dim</Name>
+      <FullPath>Номенклатура - Ценовая Группа.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура Вид-Подвид-Базовая.dim</Name>
+      <FullPath>Номенклатура Вид-Подвид-Базовая.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура Вид-Подвид.dim</Name>
+      <FullPath>Номенклатура Вид-Подвид.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура Каталог - Базовая Иерархия.dim</Name>
+      <FullPath>Номенклатура Каталог - Базовая Иерархия.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура Каталог Иерархия.dim</Name>
+      <FullPath>Номенклатура Каталог Иерархия.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура Производитель - Марка.dim</Name>
+      <FullPath>Номенклатура Производитель - Марка.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура.dim</Name>
+      <FullPath>Номенклатура.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Отменено.dim</Name>
+      <FullPath>Отменено.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Отчет О Розничных Продажах.dim</Name>
+      <FullPath>Отчет О Розничных Продажах.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Бизнес Регионы.dim</Name>
+      <FullPath>Партнеры - Бизнес Регионы.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Виды Деятельности.dim</Name>
+      <FullPath>Партнеры - Виды Деятельности.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Пользователи - Схема Предприятия.dim</Name>
+      <FullPath>Партнеры - Пользователи - Схема Предприятия.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Пользователи.dim</Name>
+      <FullPath>Партнеры - Пользователи.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Теги.dim</Name>
+      <FullPath>Партнеры - Теги.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры.dim</Name>
+      <FullPath>Партнеры.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Подвиды Номенклатуры.dim</Name>
+      <FullPath>Подвиды Номенклатуры.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Пользователи - Группы Пользователей.dim</Name>
+      <FullPath>Пользователи - Группы Пользователей.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Пользователи - Схема Предприятия.dim</Name>
+      <FullPath>Пользователи - Схема Предприятия.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Пользователи.dim</Name>
+      <FullPath>Пользователи.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Причины Отмены Заказов Клиентов - Отделы.dim</Name>
+      <FullPath>Причины Отмены Заказов Клиентов - Отделы.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Причины Отмены Заказов Клиентов.dim</Name>
+      <FullPath>Причины Отмены Заказов Клиентов.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Расчет Себестоимости.dim</Name>
+      <FullPath>Расчет Себестоимости.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Реализация Товаров Услуг.dim</Name>
+      <FullPath>Реализация Товаров Услуг.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Склады.dim</Name>
+      <FullPath>Склады.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Согласован.dim</Name>
+      <FullPath>Согласован.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Структура Предприятия.dim</Name>
+      <FullPath>Структура Предприятия.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Теги Партнеров.dim</Name>
+      <FullPath>Теги Партнеров.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Тип Документа Возврата.dim</Name>
+      <FullPath>Тип Документа Возврата.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Типы Звонков.dim</Name>
+      <FullPath>Типы Звонков.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Тэги Партнеров 2025.dim</Name>
+      <FullPath>Тэги Партнеров 2025.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Упаковки Единицы Измерения.dim</Name>
+      <FullPath>Упаковки Единицы Измерения.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>WH-dev.ds</Name>
+      <FullPath>WH-dev.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>WH.ds</Name>
+      <FullPath>WH.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DataSourceView.dsv</Name>
+      <FullPath>DataSourceView.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <MiningModels>
+    <ProjectItem>
+      <Name>Predict__814cf2a6-5080-11e0-9097-000c29dcd88a.dmm</Name>
+      <FullPath>Predict__814cf2a6-5080-11e0-9097-000c29dcd88a.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Predict__8ea06907-3ddb-11e1-99c0-000c29dcd88a.dmm</Name>
+      <FullPath>Predict__8ea06907-3ddb-11e1-99c0-000c29dcd88a.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Predict__c70e495d-e705-11ec-baae-00155d01d105.dmm</Name>
+      <FullPath>Predict__c70e495d-e705-11ec-baae-00155d01d105.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Predict__e1608884-07f4-11ed-baa2-00155d01d101.dmm</Name>
+      <FullPath>Predict__e1608884-07f4-11ed-baa2-00155d01d101.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Predict__ОсновнойМенеджер.dmm</Name>
+      <FullPath>Predict__ОсновнойМенеджер.dmm</FullPath>
+    </ProjectItem>
+  </MiningModels>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <DeploymentServerEdition>Enterprise</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>
