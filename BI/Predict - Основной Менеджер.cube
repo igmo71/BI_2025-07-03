@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="160d87f6-1f96-464c-b356-14c3ce64e7c2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Predict - Основной Менеджер</ID>
   <Name>Predict - Основной Менеджер</Name>
   <CreatedTimestamp>2024-06-20T14:05:20.143333Z</CreatedTimestamp>
@@ -133,32 +133,32 @@
   <Language>1049</Language>
   <Collation>Cyrillic_General_CI_AS</Collation>
   <Dimensions>
-    <Dimension>
+    <Dimension dwd:design-time-name="5d175ec2-0100-44c0-967d-79ccb5124947">
       <ID>Пользователи</ID>
       <Name>Пользователи</Name>
       <DimensionID>Пользователи</DimensionID>
       <Attributes>
-        <Attribute>
+        <Attribute dwd:design-time-name="5b3747d0-385a-4f78-b293-f182fe391327">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension>
+    <Dimension dwd:design-time-name="11a7363f-014f-4937-b852-c2e408849356">
       <ID>Пользователи - Схема Предприятия</ID>
       <Name>Пользователи - Схема Предприятия</Name>
       <DimensionID>Пользователи - Схема Предприятия</DimensionID>
       <Attributes>
-        <Attribute>
+        <Attribute dwd:design-time-name="66b9cd66-3ffe-40df-a08f-d24d7de3e755">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute>
+        <Attribute dwd:design-time-name="217f0ca1-e24d-4267-967e-c01e4b5c9972">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup>
+    <MeasureGroup dwd:design-time-name="5bf63c60-5a1d-4da9-9935-d7d1448ed106">
       <ID>v Data Mining Основной Менеджер</ID>
       <Name>Data Mining - Основной Менеджер</Name>
       <CreatedTimestamp>2024-06-20T14:05:20.176667Z</CreatedTimestamp>
@@ -166,41 +166,41 @@
       <LastProcessed>2025-07-03T04:00:14.293333Z</LastProcessed>
       <State>Processed</State>
       <Measures>
-        <Measure>
+        <Measure dwd:design-time-name="1b187e51-329b-4ef2-80f5-45c0bba53202">
           <ID>Вес</ID>
           <Name>Вес</Name>
           <DataType>Double</DataType>
-          <Source>
+          <Source dwd:design-time-name="7b22916d-90ed-4bd0-98ed-31896bbbf706">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="88e3ae1d-43da-4635-aa3b-2a99080edf19">
               <TableID>dbo_v_DataMining_ОсновнойМенеджер</TableID>
               <ColumnID>Вес</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0;-#,##0</FormatString>
         </Measure>
-        <Measure>
+        <Measure dwd:design-time-name="137d811a-5f1a-410e-829b-d9dacb2e85c5">
           <ID>Выручка</ID>
           <Name>Выручка</Name>
           <DataType>Double</DataType>
-          <Source>
+          <Source dwd:design-time-name="bd57bd2c-100f-4d67-9ef3-c3e2047dacff">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a99223a7-6f41-40e3-bea0-a4286da40421">
               <TableID>dbo_v_DataMining_ОсновнойМенеджер</TableID>
               <ColumnID>Выручка</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0;-#,##0</FormatString>
         </Measure>
-        <Measure>
+        <Measure dwd:design-time-name="e369bbaa-4102-46de-8d55-7b5667aabcca">
           <ID>v Data Mining Основной Менеджер Count</ID>
           <Name>Количество Строк</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source>
+          <Source dwd:design-time-name="db3107e8-3fa9-48ef-a4dc-df7252b9381a">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding">
+            <Source xsi:type="RowBinding" dwd:design-time-name="10040ef7-0f33-4a73-bab3-911614d37b92">
               <TableID>dbo_v_DataMining_ОсновнойМенеджер</TableID>
             </Source>
           </Source>
@@ -210,17 +210,17 @@
       <EstimatedSize>1093</EstimatedSize>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="425849f8-c9c8-4bdf-9caf-636b57223ee9">
           <CubeDimensionID>Пользователи</CubeDimensionID>
           <Attributes>
-            <Attribute>
+            <Attribute dwd:design-time-name="a4bf4e18-ea94-425e-8966-f173442f28be">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn>
+                <KeyColumn dwd:design-time-name="ecb9dcea-6f5b-4730-b4b0-aa31e7949d8f">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a519e190-b3d5-4a18-92aa-56b5932b5da5">
                     <TableID>dbo_v_DataMining_ОсновнойМенеджер</TableID>
                     <ColumnID>Основной_x0020_Менеджер_x0020_Key</ColumnID>
                   </Source>
@@ -230,16 +230,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a577e277-7b68-438b-bb9b-07b25bd6a7c3">
           <CubeDimensionID>Пользователи - Схема Предприятия</CubeDimensionID>
           <Attributes>
-            <Attribute>
+            <Attribute dwd:design-time-name="e890755d-2daf-4bf0-8034-88e6c074dc8d">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn>
+                <KeyColumn dwd:design-time-name="649b3e6e-04b5-40ac-8a8e-d41219c512ea">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2301160e-4858-4894-92dd-a9d7f7e992e9">
                     <TableID>dbo_v_DataMining_ОсновнойМенеджер</TableID>
                     <ColumnID>Основной_x0020_Менеджер_x0020_Key</ColumnID>
                   </Source>
@@ -247,13 +247,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute>
+            <Attribute dwd:design-time-name="89440a46-a32b-4ec2-8ad6-016d031aea52">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn>
+                <KeyColumn dwd:design-time-name="7d155b44-fa8d-45b3-8c27-4b63c63d7efc">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6bdab1e2-2e17-4cc7-8445-b13849b13b3b">
                     <TableID>dbo_v_Пользователи_СхемаПредприятия</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
@@ -263,48 +263,24 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions>
-        <Partition>
-          <ID>v Data Mining Основной Менеджер</ID>
-          <Name>v Data Mining Основной Менеджер</Name>
-          <CreatedTimestamp>2024-06-20T14:05:20.206667Z</CreatedTimestamp>
-          <LastSchemaUpdate>2025-06-10T06:14:25.11Z</LastSchemaUpdate>
-          <LastProcessed>2025-07-03T04:00:14.26Z</LastProcessed>
-          <State>Processed</State>
-          <Source xsi:type="DsvTableBinding">
-            <DataSourceViewID>WH-dev</DataSourceViewID>
-            <TableID>dbo_v_DataMining_ОсновнойМенеджер</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching>
-            <SilenceInterval>-PT1S</SilenceInterval>
-            <Latency>-PT1S</Latency>
-            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
-            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" />
-          </ProactiveCaching>
-          <EstimatedSize>1093</EstimatedSize>
-        </Partition>
-      </Partitions>
-      <ProactiveCaching>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="e88a0f27-c98d-4cdc-91f9-3996e3fdad87">
         <SilenceInterval>-PT1S</SilenceInterval>
         <Latency>-PT1S</Latency>
         <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
         <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-        <Source xsi:type="ProactiveCachingInheritedBinding" />
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="df90fa5c-60db-4c43-b3ef-3bf31b31ebef" />
       </ProactiveCaching>
     </MeasureGroup>
   </MeasureGroups>
-  <Source>
+  <Source dwd:design-time-name="d42a95b9-8896-48f5-b01b-0714816fe46f">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="98000ba5-9fcf-4722-bc66-59f8e9651243">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f740200f-1bbc-4e85-a0db-bf1ae5322aa8" />
   </ProactiveCaching>
 </Cube>

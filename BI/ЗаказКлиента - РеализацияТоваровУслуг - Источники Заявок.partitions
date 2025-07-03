@@ -1,3 +1,61 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4f297e3b-3af9-4113-b889-0a17f8fd9b21" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ec31879e-c35f-4d83-9d6e-21f5ca230281" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>ЗаказКлиента - РеализацияТоваровУслуг - Источники Заявок</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>v Заказ Клиента Реализация Товаров Услуг Count</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2dbcf45b-8028-488e-b538-0d3d486316fa">
+          <ID>v Заказ Клиента Реализация Товаров Услуг Count</ID>
+          <Name>v Заказ Клиента Реализация Товаров Услуг Count</Name>
+          <CreatedTimestamp>2024-05-17T08:29:54.566667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2025-06-10T06:14:24.69Z</LastSchemaUpdate>
+          <LastProcessed>2025-07-03T04:01:07.903333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="88c8a772-2f17-4b9f-994b-35365f5ea40a">
+            <DataSourceViewID>WH-dev</DataSourceViewID>
+            <TableID>dbo_v_ЗаказКлиента_РеализацияТоваровУслуг_count</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="3b787e62-5b5a-4405-b1a7-597789fe721f">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="716b2ce3-e48b-4ad6-a4d2-e8509f1bb259" />
+          </ProactiveCaching>
+          <EstimatedSize>399845</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Call Items</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="14df4413-1611-4a92-9ad5-ff95b7ac975a">
+          <ID>v Call Items</ID>
+          <Name>v Call Items</Name>
+          <CreatedTimestamp>2024-05-17T08:29:54.613333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2025-06-10T06:14:24.783333Z</LastSchemaUpdate>
+          <LastProcessed>2025-07-03T04:01:00.246667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="007ffa7a-d274-4e67-8743-c06eddd61465">
+            <DataSourceViewID>WH-dev</DataSourceViewID>
+            <TableID>dbo_v_CallItems</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="363ae08c-0289-420a-b03d-932546949493">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="3c1e68b3-b417-4008-9145-34c5363271fa" />
+          </ProactiveCaching>
+          <EstimatedSize>8410</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
 </Cube>
