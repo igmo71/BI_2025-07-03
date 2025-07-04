@@ -502,19 +502,19 @@
       <FullPath>Типы Звонков.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Тэги Партнеров 2025.dim</Name>
-      <FullPath>Тэги Партнеров 2025.dim</FullPath>
+      <Name>Тэги Партнеров.dim</Name>
+      <FullPath>Тэги Партнеров.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Упаковки Единицы Измерения.dim</Name>
       <FullPath>Упаковки Единицы Измерения.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Тэги Партнеров.dim</Name>
+      <FullPath>Партнеры - Тэги Партнеров.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
-    <ProjectItem>
-      <Name>WH-dev.ds</Name>
-      <FullPath>WH-dev.ds</FullPath>
-    </ProjectItem>
     <ProjectItem>
       <Name>WH.ds</Name>
       <FullPath>WH.ds</FullPath>
@@ -552,6 +552,20 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>WH</Id>
+            <Name>WH</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=VM-BI-SQL;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>WH</Id>
+            <Name>WH</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
         <DeploymentServerEdition>Enterprise</DeploymentServerEdition>
       </Options>
     </Configuration>
