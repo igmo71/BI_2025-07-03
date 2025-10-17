@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cc5a7399-00b3-4fee-a897-1aec7a662a4e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Календарь По Месяцам</ID>
   <Name>Календарь По Месяцам</Name>
   <CreatedTimestamp>2023-11-29T13:39:14.106667Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4068" scrolltop="-7818" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10186" y="16166" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4068" scrolltop="-7818" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11456" y="19394" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -68,12 +68,12 @@
   </Annotations>
   <LastProcessed>2025-07-03T04:00:52.45Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="730345a3-d9fd-402c-baff-15026594a1b2">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
   <Type>Time</Type>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="ef905c58-d3d7-457c-8905-744b58ac7507">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
@@ -83,46 +83,50 @@
   <Collation>Cyrillic_General_CI_AS</Collation>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="f1966c6d-5d17-4f8e-bcd4-f64838e89c79">
       <ID>End Of Month</ID>
       <Name>Конец Месяца</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="f6aa69da-6f82-4da0-90c6-6621f3af3511">
           <DataType>WChar</DataType>
           <DataSize>10</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45529ab1-3024-444a-a748-1f935679ddb9">
             <TableID>dbo_v_CalendarByMonth</TableID>
             <ColumnID>EndOfMonth</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="44751135-8db6-498a-8dcc-92e3728a5b5e">
         <DataType>WChar</DataType>
         <DataSize>10</DataSize>
         <NullProcessing>ZeroOrBlank</NullProcessing>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8f9f49b2-d6f6-47e5-8f9f-44bac96f0094">
           <TableID>dbo_v_CalendarByMonth</TableID>
           <ColumnID>EndOfMonth</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="990d6059-9920-4f08-980b-14574cc3ad13">
           <AttributeID>Year</AttributeID>
           <Name>Year</Name>
         </AttributeRelationship>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="87ed3938-3c39-4146-bb97-4bceb7e5fbc9">
           <AttributeID>Month</AttributeID>
           <Name>Month</Name>
         </AttributeRelationship>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="259d9ab3-2113-40c2-9ed4-096e1043b973">
           <AttributeID>Month Name</AttributeID>
           <Name>Month Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="062bfadd-eb0a-4223-994a-ca8f12344ddb">
           <AttributeID>Begin Of Month</AttributeID>
           <Name>Begin Of Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f1d9f4c8-a663-4233-a940-ba4d1a96cfa4">
+          <AttributeID>Year Month</AttributeID>
+          <Name>Year Month</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -130,21 +134,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="8c922c1d-e76f-46fb-a50d-b0b970e5a9bf">
       <ID>Year</ID>
       <Name>Год</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="d9432b7f-87b4-4443-93a4-256ddb4bc634">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7fe59451-0545-4ff3-b434-b2715ae677ee">
             <TableID>dbo_v_CalendarByMonth</TableID>
             <ColumnID>Year</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="f15759a9-19ef-414b-bc7a-1b38dd9cb4d6">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c36fc000-a72b-44c4-bdb8-0fce740cb2e9">
           <TableID>dbo_v_CalendarByMonth</TableID>
           <ColumnID>Year</ColumnID>
         </Source>
@@ -153,21 +157,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="10a8375b-9978-41a5-b6d1-54a8251a0378">
       <ID>Month</ID>
       <Name>Месяц</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="ee6b6535-d39c-49d1-aadb-0593f8753496">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2feb56a2-9f6c-4390-a225-d356c5673a15">
             <TableID>dbo_v_CalendarByMonth</TableID>
             <ColumnID>Month</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="d4bf1c5a-6865-4222-b8b4-af8bdc4784e4">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e844e17f-528f-4d64-840d-ad5800f07f79">
           <TableID>dbo_v_CalendarByMonth</TableID>
           <ColumnID>Month</ColumnID>
         </Source>
@@ -176,22 +180,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="c382d887-91a3-45f6-856b-f0f784826c26">
       <ID>Month Name</ID>
       <Name>Месяц имя</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="e509f77c-222b-4922-8d7f-f33ee8a8b645">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68a4ef59-6d8f-429c-a7b5-ce7773719e47">
             <TableID>dbo_v_CalendarByMonth</TableID>
             <ColumnID>Month</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="e5463ff8-376a-4413-a0ea-c06f138b0fd1">
         <DataType>WChar</DataType>
         <DataSize>30</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ce3ecf25-06ea-403b-8611-4248ae1d4cdf">
           <TableID>dbo_v_CalendarByMonth</TableID>
           <ColumnID>MonthName</ColumnID>
         </Source>
@@ -200,23 +204,23 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="40a4143e-13f3-45a2-97c7-295271e3f4a0">
       <ID>Begin Of Month</ID>
       <Name>Begin Of Month</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="ee9ece0e-a98a-4045-903f-8aec1130e933">
           <DataType>WChar</DataType>
           <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70c830bb-482c-4f03-94e4-2f486fcd210c">
             <TableID>dbo_v_CalendarByMonth</TableID>
             <ColumnID>BeginOfMonth</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="47017387-38f9-45a2-bb22-cd1ec8056cff">
         <DataType>WChar</DataType>
         <DataSize>10</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="68f2d98c-2f72-4168-84ed-3e326d4a8a91">
           <TableID>dbo_v_CalendarByMonth</TableID>
           <ColumnID>BeginOfMonth</ColumnID>
         </Source>
@@ -224,76 +228,92 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="94a1f5b9-8309-463d-8d6f-6d185e92370f">
+      <ID>Year Month</ID>
+      <Name>Year Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="76cf7ad9-4878-4e32-96e0-166f2dd405bd">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="276a294d-e338-4944-a31c-cea7692f5843">
+            <TableID>dbo_v_CalendarByMonth</TableID>
+            <ColumnID>Year_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="c3b06bb8-0d9a-4f90-aa80-ef19826ce196">
       <ID>Hierarchy</ID>
       <Name>Г-М</Name>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="7615ee19-fa9b-4bd1-80cb-b82bd2cd0a58">
           <ID>Год</ID>
           <Name>Год</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="347a024e-af6b-4360-a489-ef06fd44d9e6">
           <ID>Месяц</ID>
           <Name>Месяц</Name>
           <SourceAttributeID>Month</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="3415a16f-2c6a-439a-ad5f-a4e4238c841c">
       <ID>Hierarchy 1</ID>
       <Name>Г-ММ</Name>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="ffb5dd6a-5c8c-4266-ac97-438b51f74d0d">
           <ID>Год</ID>
           <Name>Год</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="b0954f32-24e6-40f7-bea3-c49ecafd5487">
           <ID>Месяц имя</ID>
           <Name>Месяц имя</Name>
           <SourceAttributeID>Month Name</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="9a9ca9af-5310-40c8-9dc3-cfc0a744348c">
       <ID>Hierarchy 2</ID>
       <Name>Г-М-КМ</Name>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="a20d6b08-71eb-4b33-870d-8ed94b5cebab">
           <ID>Год</ID>
           <Name>Год</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="3db80789-ed53-49c8-9230-72a96749f9eb">
           <ID>Месяц</ID>
           <Name>Месяц</Name>
           <SourceAttributeID>Month</SourceAttributeID>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="0493f749-3191-4004-9d00-c44c79fd3791">
           <ID>Коец Месяца</ID>
           <Name>Конец Месяца</Name>
           <SourceAttributeID>End Of Month</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="6eb8f867-8d86-4eff-b87d-dfc9c32ca87f">
       <ID>Hierarchy 3</ID>
       <Name>Г-ММ-КМ</Name>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="5c95c650-fa86-485a-b6ab-74d4d14776f6">
           <ID>Год</ID>
           <Name>Год</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="9b61610d-f918-46c0-8a2e-2ab74081ad23">
           <ID>Месяц имя</ID>
           <Name>Месяц имя</Name>
           <SourceAttributeID>Month Name</SourceAttributeID>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="ffeabaf9-4fce-4b19-9ce4-3b78845535c7">
           <ID>Конец Месяца</ID>
           <Name>Конец Месяца</Name>
           <SourceAttributeID>End Of Month</SourceAttributeID>
@@ -301,12 +321,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="ddd38586-a6dc-4995-a748-0d2317ac25a5">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1846b088-01bb-4971-b3fa-bcf777610e46" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
