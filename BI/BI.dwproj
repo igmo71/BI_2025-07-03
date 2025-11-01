@@ -8,42 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Predict - Основной Менеджер.cube</Name>
-      <FullPath>Predict - Основной Менеджер.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Predict - Основной Менеджер.partitions</Name>
-          <FullPath>Predict - Основной Менеджер.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Predict.cube</Name>
-      <FullPath>Predict.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Predict.partitions</Name>
-          <FullPath>Predict.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Выручка И Себестоимость Продаж - Vip.cube</Name>
       <FullPath>Выручка И Себестоимость Продаж - Vip.cube</FullPath>
       <Dependencies>
         <ProjectItem>
           <Name>Выручка И Себестоимость Продаж - Vip.partitions</Name>
           <FullPath>Выручка И Себестоимость Продаж - Vip.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Выручка И Себестоимость Продаж - Мен.cube</Name>
-      <FullPath>Выручка И Себестоимость Продаж - Мен.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Выручка И Себестоимость Продаж - Мен.partitions</Name>
-          <FullPath>Выручка И Себестоимость Продаж - Мен.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -287,26 +257,6 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Forecast4.cube</Name>
-      <FullPath>Forecast4.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Forecast4.partitions</Name>
-          <FullPath>Forecast4.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Forecast4 - Сумма Выручки.cube</Name>
-      <FullPath>Forecast4 - Сумма Выручки.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Forecast4 - Сумма Выручки.partitions</Name>
-          <FullPath>Forecast4 - Сумма Выручки.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -542,28 +492,6 @@
       <FullPath>DataSourceView.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
-  <MiningModels>
-    <ProjectItem>
-      <Name>Predict__814cf2a6-5080-11e0-9097-000c29dcd88a.dmm</Name>
-      <FullPath>Predict__814cf2a6-5080-11e0-9097-000c29dcd88a.dmm</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Predict__8ea06907-3ddb-11e1-99c0-000c29dcd88a.dmm</Name>
-      <FullPath>Predict__8ea06907-3ddb-11e1-99c0-000c29dcd88a.dmm</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Predict__c70e495d-e705-11ec-baae-00155d01d105.dmm</Name>
-      <FullPath>Predict__c70e495d-e705-11ec-baae-00155d01d105.dmm</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Predict__e1608884-07f4-11ed-baa2-00155d01d101.dmm</Name>
-      <FullPath>Predict__e1608884-07f4-11ed-baa2-00155d01d101.dmm</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Predict__ОсновнойМенеджер.dmm</Name>
-      <FullPath>Predict__ОсновнойМенеджер.dmm</FullPath>
-    </ProjectItem>
-  </MiningModels>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
