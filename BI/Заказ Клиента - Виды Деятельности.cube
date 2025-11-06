@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29fc35a5-6cb9-49f2-b3fe-4b2c3258696b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="18f0003e-d538-4ca8-a26a-84cd34af21c4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Заказ Клиента - Виды Деятельности</ID>
   <Name>Заказ Клиента - Виды Деятельности</Name>
   <CreatedTimestamp>2023-12-01T13:03:49.993333Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3973" scrolltop="-3044" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="27226" y="18018" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="64" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3973" scrolltop="1255" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="22066" y="20823" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -525,7 +525,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-3044</Value>
+      <Value>1255</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -545,310 +545,289 @@
   <Language>1049</Language>
   <Collation>Cyrillic_General_CI_AS</Collation>
   <Dimensions>
-    <Dimension dwd:design-time-name="62251999-663c-4016-a336-a9a1b786a734">
+    <Dimension dwd:design-time-name="5938827e-4d8e-4cb6-badd-e95204d8c6b5">
       <ID>Заказ Клиента</ID>
       <Name>Заказ Клиента</Name>
       <DimensionID>Заказ Клиента</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a2a0eb17-bfe9-49be-be11-c0158bce3b61">
+        <Attribute dwd:design-time-name="e75f4e12-ccd4-4f67-a8cb-74fdb27e7b73">
           <AttributeID>Id</AttributeID>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
         </Attribute>
-        <Attribute dwd:design-time-name="d9f99531-f051-41e1-9261-94656ee8af4b">
+        <Attribute dwd:design-time-name="028d2751-7f48-4719-ada3-e58090e359a6">
           <AttributeID>Номенклатура Key</AttributeID>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
         </Attribute>
-        <Attribute dwd:design-time-name="b874332f-17e1-4927-856c-a6733f0351c0">
+        <Attribute dwd:design-time-name="1519064e-2f81-4848-91e9-8d8507917ba2">
           <AttributeID>Date</AttributeID>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
         </Attribute>
-        <Attribute dwd:design-time-name="55dbc605-998a-45d9-b220-9fb99093913d">
+        <Attribute dwd:design-time-name="797c672e-d5af-4cee-8161-ca39a749a7cd">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="4de57545-a5bf-498e-bd9e-52d691a59088">
+        <Hierarchy dwd:design-time-name="48c1cbd6-4e23-4e7a-a34e-500bf86c1598">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="3536d7cc-8b9e-4e1c-9972-84145c55cc26">
+    <Dimension dwd:design-time-name="fc25d93a-3ffe-49e1-926f-6cde8aafc706">
       <ID>Календарь</ID>
       <Name>Календарь</Name>
       <DimensionID>Календарь</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="25037da5-dde8-4bec-ac4f-17b8e97af33a">
+        <Attribute dwd:design-time-name="e3216761-4e31-4bd0-bbed-54d913238c66">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d5a3d7cc-31b7-405f-a565-e8dc1d0a62ae">
+        <Attribute dwd:design-time-name="854e9377-d739-45d5-9c90-43260c53eb0b">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="83da4003-5f35-4de7-bd13-363c8954f7af">
+        <Attribute dwd:design-time-name="ff28f820-7b07-4a17-935e-43ef2db4ca2f">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6f1beea1-bd22-4785-91b4-bb01db1423c1">
+        <Attribute dwd:design-time-name="79741223-90fe-4b08-9dbb-7e980f6242ee">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ed96172d-f3fa-469b-96e4-a3bdd0888de5">
+        <Attribute dwd:design-time-name="e03527e1-25ff-47ed-9dc7-ce5a15d7a158">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5059d625-44cd-4e52-9d85-e8518b4b6c45">
+        <Attribute dwd:design-time-name="6d910582-3e7c-4963-979b-cc26e049c70a">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0dbab088-dbeb-4f04-8fe9-7134cfc7b92d">
+        <Attribute dwd:design-time-name="7f5cdd4f-1092-4879-9067-e69d7b5bee89">
           <AttributeID>Weekday</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="485eadd0-7bd1-4e35-9b5a-f398ffe873c1">
+        <Attribute dwd:design-time-name="d9bf85bd-32b9-4e9d-b2f6-2ddbcb668d5d">
           <AttributeID>Weekday 1</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="ae46f432-bed4-4c73-9b03-28646f6cbeb0">
+        <Hierarchy dwd:design-time-name="7211e690-a448-4840-ac9b-ca62bfa06724">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="befa7e18-8354-4ae2-8914-dcf24d15cc14">
+        <Hierarchy dwd:design-time-name="7afd19d2-0812-49ce-8946-439ef49c4b3d">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="0ce3d057-2127-4caa-b14c-54a79e6b2005">
+        <Hierarchy dwd:design-time-name="9af174b4-db94-4dfc-8604-2080ba47bf5a">
           <HierarchyID>Hierarchy 2</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="193dc671-62c4-4c8c-a2f4-14c82f9e3d1f">
+        <Hierarchy dwd:design-time-name="c1d2f1a5-7cb4-4cbf-a875-de0d9e9c6a3d">
           <HierarchyID>Hierarchy 3</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="480761b1-52be-47b3-a87b-2e140baf0ce3">
+        <Hierarchy dwd:design-time-name="db3cf722-b3cb-4434-a308-4039b4983757">
           <HierarchyID>Hierarchy 4</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="590941dc-1744-49bf-b65e-348827c02058">
+    <Dimension dwd:design-time-name="94b50d9e-d7e8-41ac-85f9-8137928d18eb">
       <ID>Номенклатура</ID>
       <Name>Номенклатура</Name>
       <DimensionID>Номенклатура</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="577c03a9-9565-42ee-b299-df8c4d54534e">
+        <Attribute dwd:design-time-name="3d46b74f-0e8f-4810-a707-806456a1f5f1">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8ea7ec83-37b5-41a1-a3c8-6581e61a335c">
+    <Dimension dwd:design-time-name="edfea9df-617b-4bb7-ae00-f8bb7901f8b8">
       <ID>Номенклатура Вид-Подвид</ID>
       <Name>Номенклатура Вид-Подвид</Name>
       <DimensionID>Номенклатура Вид-Подвид</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="442d60df-6084-4210-9043-0bb6cb3f000c">
+        <Attribute dwd:design-time-name="ccd84da2-22b6-44d8-a216-3d69dd50adcf">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d739d0ed-0eb4-435e-9828-39b5f91124b3">
+        <Attribute dwd:design-time-name="a9563098-7aad-408e-89e4-11bb99fdbf3e">
           <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="77104c25-2560-4581-ac2b-4fa3cf81babe">
+        <Attribute dwd:design-time-name="63f644fa-731e-4b67-b44b-83c1a985a5fc">
           <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="74b732d8-7321-4dd8-982b-6b9d8065a9a2">
+        <Hierarchy dwd:design-time-name="e03802a9-d09c-499c-b49c-92e9520e5f9a">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="25aa3bda-d22d-41d2-8bf5-10ffa8c6ace9">
+        <Hierarchy dwd:design-time-name="f3176d6b-8598-49e4-a916-9ef865345446">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="eddbae65-aeb6-43bb-a401-7a2226ecc045">
+    <Dimension dwd:design-time-name="f6651375-ff76-4766-b2f3-4a6bd4f7b15c">
       <ID>Номенклатура Вид-Подвид-Базовая</ID>
       <Name>Номенклатура Вид-Подвид-Базовая</Name>
       <DimensionID>Номенклатура Вид-Подвид-Базовая</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2236155c-7cfa-4574-ba88-5c8e01c28b98">
+        <Attribute dwd:design-time-name="c7d3452c-0070-461c-b930-ec863fea69c1">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="95007d79-1975-457c-aa77-700f8b956b0d">
+        <Attribute dwd:design-time-name="64ad2f28-524d-4888-a4e0-670ec4a44e5f">
           <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eb30eb2f-7526-4210-bf56-37946c808ac5">
+        <Attribute dwd:design-time-name="ed3491f0-80d5-48f6-b8b2-4c796284b630">
           <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f3d6550c-0a37-4506-91a2-915cbb39f273">
+        <Attribute dwd:design-time-name="454efa5a-3e44-4a6c-8eda-a546f45c696b">
           <AttributeID>v Базовая Номенклатура - Ref Key</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="037ca36b-c5af-43bd-9920-c06a498a36cc">
+        <Hierarchy dwd:design-time-name="9ea57c88-bd7c-4c87-b43e-567e831efa2c">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="69780c70-ed27-4e06-93ff-5292bdbbbf3b">
+    <Dimension dwd:design-time-name="4bbac41f-144d-4c77-a2bc-02a8c71e47d8">
       <ID>Номенклатура Каталог</ID>
       <Name>Номенклатура Каталог</Name>
       <DimensionID>Номенклатура Каталог</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="48f018b6-7917-45c3-b34f-5d72691ee245">
+        <Attribute dwd:design-time-name="ce041fef-bfb1-4942-b887-f37da6425c20">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7a540a98-1b86-4ac2-bf78-a7be3722d4d8">
+        <Attribute dwd:design-time-name="39cba1a4-b56e-422f-b554-458f784cbfa4">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="71499ee9-d24d-4d80-9a22-4d5d5bd6c1c7">
+    <Dimension dwd:design-time-name="11dbe320-5a5b-47db-9599-c5d4a50b30a9">
       <ID>Номенклатура Каталог-Базовая</ID>
       <Name>Номенклатура Каталог-Базовая</Name>
       <DimensionID>Номенклатура Каталог-Базовая</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e0921256-e889-474f-9dd0-671a6d05b665">
+        <Attribute dwd:design-time-name="59a7fc4f-0d0c-465f-bb1b-991b11742fb5">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3b6c79c0-f5ab-40eb-a7ad-b8c8c5dc0099">
+        <Attribute dwd:design-time-name="14bbed7f-4f5b-4210-9785-acd730259425">
           <AttributeID>Parent Базовая Номенклатура Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2da98aa1-6ecb-47dd-9bae-cfac9d15c41d">
+    <Dimension dwd:design-time-name="2d8d82da-2999-42e8-b042-377635a457dd">
       <ID>Партнеры</ID>
       <Name>Партнеры</Name>
       <DimensionID>Партнеры</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1314f643-8709-4d44-a98b-d3b3fda1cd85">
+        <Attribute dwd:design-time-name="fb5064fa-7839-4e67-a98b-4e93a59c7352">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5976d0cc-0d42-4915-8cc9-f020aa0f3e8a">
+        <Attribute dwd:design-time-name="0ea87691-3eb7-4470-af96-509897131feb">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="783a9ea9-5824-40b5-91d9-bbc8d7510c0e">
+        <Attribute dwd:design-time-name="f64f2858-b62e-439e-abea-5e0d1a70a300">
           <AttributeID>Бизнес Регион Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3f9cbb6c-52ac-45bb-9923-5fc58bc91b32">
+        <Attribute dwd:design-time-name="683ef206-3961-48ec-84f6-50bb20716db4">
           <AttributeID>Основной Менеджер Key</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="3ee5191c-c1b6-400e-8f62-73ec22e33dd3">
+        <Hierarchy dwd:design-time-name="24fbca45-615e-4e4f-8e9b-43d010984301">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="2bbed762-cfd6-4e14-bc85-b281b34ba5db">
+        <Hierarchy dwd:design-time-name="637bc58b-e7e4-494d-b706-0c670c67501b">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="1850072a-6bb0-447f-a8c1-1457c6743bc4">
+    <Dimension dwd:design-time-name="bf388cd8-5128-417d-aafb-54712ac3196a">
       <ID>Партнеры - Пользователи</ID>
       <Name>Партнеры - Основные Менеджеры</Name>
       <DimensionID>Партнеры - Пользователи</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6f6bdd86-a7b7-4f69-a11c-c0e9bcef53b7">
+        <Attribute dwd:design-time-name="fab8528f-4bc9-4e70-a174-cabd84c0a4f8">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b6e74ca1-ab3a-4fc2-a876-84e9930f16b3">
+        <Attribute dwd:design-time-name="b4cd1578-91f2-4407-b989-043ce3efb685">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="39017e41-775c-417a-9e91-13824872ed68">
+    <Dimension dwd:design-time-name="774ec273-dd57-4e4f-9560-6abf2240b67a">
       <ID>Партнеры - Пользователи - Схема Предприятия</ID>
       <Name>Партнеры - Основные Менеджеры - Схема Предприятия</Name>
       <DimensionID>Партнеры - Пользователи - Схема Предприятия</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="093bcdf1-dc37-4fc0-8abc-538f001eae73">
+        <Attribute dwd:design-time-name="c64de074-ed15-46ba-bf33-cfd29307152d">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5f119e87-7503-4d8a-9518-934a72147ae7">
+        <Attribute dwd:design-time-name="f6f25497-0ba5-45fb-962e-df0726f7dc30">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="4fede65a-09bb-48ba-a6e0-5442508e72a3">
+    <Dimension dwd:design-time-name="0a2218df-ccc1-46bf-ae7d-84ff45120218">
       <ID>Партнеры - Виды Деятельности</ID>
       <Name>Партнеры - Виды Деятельности</Name>
       <DimensionID>Партнеры - Виды Деятельности</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="44796b72-1c42-4fa0-b69f-1e6835a43c66">
+        <Attribute dwd:design-time-name="40a0d694-f745-473d-8706-833aea181b0d">
           <AttributeID>Id</AttributeID>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
         </Attribute>
-        <Attribute dwd:design-time-name="f619e250-5621-4cae-be8d-c43ee702b7d6">
+        <Attribute dwd:design-time-name="a4b3b733-b2cc-4a85-ab49-812df8de7f68">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e9675561-4e76-4953-95e9-7a60f22f9919">
+        <Attribute dwd:design-time-name="41d41b79-e1eb-42ed-904c-a55c1c351377">
           <AttributeID>Вид Деятельности Key</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="1c5937ba-e85f-4bdb-91f7-0779a182ce06">
+        <Hierarchy dwd:design-time-name="9254be1f-0c6e-43cc-8a02-aec23758acba">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="e4a0769d-78df-4149-af69-d19e913742a4">
+    <Dimension dwd:design-time-name="d4f0f171-6ae6-40d6-b335-a27cd42a1a8f">
       <ID>Склады</ID>
       <Name>Склады</Name>
       <DimensionID>Склады</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1cb19be4-42f9-40ec-b433-6d0329d93c50">
+        <Attribute dwd:design-time-name="5acf3c47-dfd4-42ef-9cda-518d7eec4646">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d495012a-0ff4-4e33-8f83-6675e3548e45">
+        <Attribute dwd:design-time-name="5cad4ab1-236b-4048-8f4d-2900250c2e74">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="a841a588-7711-4c61-a91a-5da17491abcb">
+    <Dimension dwd:design-time-name="e91be9b5-d543-40ee-ae9b-d892667c396b">
       <ID>Отменено</ID>
       <Name>Отменено</Name>
       <DimensionID>Отменено</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d70f5013-27ce-4560-b375-d5675aa320dc">
+        <Attribute dwd:design-time-name="8fd68cef-93c6-4b3f-a863-bdab58898e4d">
           <AttributeID>Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="d96f2e78-f071-42ae-bdeb-2bb37b8c0b66">
+    <Dimension dwd:design-time-name="6acf0b5d-de1e-44e4-bf93-7bcab8d220f1">
       <ID>Согласован</ID>
       <Name>Согласован</Name>
       <DimensionID>Отменено</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a15f510f-2e44-4a36-b624-d0f35c950c3b">
+        <Attribute dwd:design-time-name="205085d0-9e3d-45d8-9dbb-b0cff86031b8">
           <AttributeID>Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2bfff0a5-72a3-44a1-95d2-78f2cbbbbf7d">
+    <Dimension dwd:design-time-name="a59eb9c6-4eff-448f-bf14-c7326c456883">
       <ID>Виды Деятельности</ID>
       <Name>Виды Деятельности</Name>
       <DimensionID>Виды Деятельности</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cb8f2b4f-964e-4fda-8c0f-477a65e7779a">
+        <Attribute dwd:design-time-name="cbcdcaa6-1b0e-42d0-935b-c16c6e02a1ce">
           <AttributeID>Ref Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e99193af-daba-407e-a5b1-a9bf9448a36c">
+        <Attribute dwd:design-time-name="659a4eed-5874-4c6b-bdea-b0fe46c306ba">
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="859ab46e-76eb-45c4-8b45-10397bc726f0">
-      <ID>Номенклатура - Типы Упаковки</ID>
-      <Name>Номенклатура - Типы Упаковки</Name>
-      <DimensionID>Номенклатура - Типы Упаковки</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="624df5cf-dc95-43c9-ba16-4881459935dc">
-          <AttributeID>Ref Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="07cca328-b3cc-4114-8775-a293be7a48c2">
-          <AttributeID>v Значения Свойств Объектов Типы Упаковки - Ref Key</AttributeID>
-        </Attribute>
-      </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="8931efca-032c-4b11-81b2-67d1eae80e5d">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="790887d5-3828-4150-be20-6e10807dc756">
-          <HierarchyID>Hierarchy 1</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
-    </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="4d724b5d-a0ab-4a40-8d29-e28fbb794860">
+    <MeasureGroup dwd:design-time-name="2cca4b84-dfff-4b99-bd95-0a64ee377965">
       <ID>v Заказ Клиента Товары</ID>
       <Name>Заказ Клиента Товары</Name>
       <CreatedTimestamp>2023-12-01T13:03:50.04Z</CreatedTimestamp>
@@ -856,78 +835,78 @@
       <LastProcessed>2025-07-03T04:05:24.17Z</LastProcessed>
       <State>Processed</State>
       <Measures>
-        <Measure dwd:design-time-name="e9ba4758-5e88-4f0c-ae67-a9f8a7a5771d">
+        <Measure dwd:design-time-name="2dd5c8b7-09cb-4c5d-8eb8-e96ac626b0c4">
           <ID>Количество Упаковок</ID>
           <Name>Количество Упаковок</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="4992ee75-d17f-40a0-9ea2-8c013480f62e">
+          <Source dwd:design-time-name="3527c4d5-799b-4339-a62c-bf85f210c6aa">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a2f68a21-d74d-4c50-a015-a8b1715e06d3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="93894237-3ce1-43bd-8e41-497999543e94">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>КоличествоУпаковок</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="9cf51214-b4a7-44d0-9fc9-3e1cc0f5337e">
+        <Measure dwd:design-time-name="53db7521-fc87-489f-8526-4a9709ce041e">
           <ID>Количество</ID>
           <Name>Количество</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="90341b99-b7b4-4338-a244-4725abb4c2b1">
+          <Source dwd:design-time-name="9a0c7e4d-1744-4125-8006-8c98e9544a9a">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e8f19b2-f71a-4901-b176-6a3e6c9fa115">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="03b06957-35c2-4210-8c46-bf4195bf4e26">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>Количество</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="162af392-c46c-44ff-9a89-0d6e03538247">
+        <Measure dwd:design-time-name="c7cd3dcc-31e6-4b67-b3e7-b0d387890b2f">
           <ID>Цена</ID>
           <Name>Цена</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="3ad35339-de1d-4c7f-8757-69cdde48bc80">
+          <Source dwd:design-time-name="0b1746b6-3da7-40eb-9148-434e78ebf201">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="31b98a28-7852-4967-84f4-00fce0d3e908">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9ca616a0-ad4a-4bb2-ac8e-ff94be96d941">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>Цена</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="b6466e4f-7d3f-4a4e-b3fc-4b54b11de5f0">
+        <Measure dwd:design-time-name="4ec6a37f-60e8-4719-8d1f-8201f285eb98">
           <ID>Сумма</ID>
           <Name>Сумма</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="4b81aba9-0551-4076-b248-2e1cfafded72">
+          <Source dwd:design-time-name="20cafff4-21e7-469b-b631-a252a352dadf">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="284ca9a5-2ddf-4a6f-8142-03f4773cc542">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6348ae6d-3a90-414a-84ef-63b4f46a6a7c">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>Сумма</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="d61764bd-ae0b-42ac-93ad-c9706e5bbe15">
+        <Measure dwd:design-time-name="a5087b1a-c69b-44f8-b0ab-15f91550818b">
           <ID>Сумма НДС</ID>
           <Name>Сумма НДС</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="5cf4536f-2fc2-4e26-ab8b-cacbd79e69d8">
+          <Source dwd:design-time-name="a6488d4b-c581-4ac6-8c39-4f76b0650c55">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="60561a24-d61d-4e2a-a016-e34934bd5fec">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5ef17835-abb5-4c42-95b4-0886799389b9">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>СуммаНДС</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="cb853a75-cfcf-4866-b7f8-be28e9890553">
+        <Measure dwd:design-time-name="6dd764a1-7bf8-48d0-ab57-54f7ce01eff0">
           <ID>Сумма СНДС</ID>
           <Name>Сумма СНДС</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="7a2853dd-40bf-4ca3-b67d-6b77194de9c2">
+          <Source dwd:design-time-name="606c9579-1462-4edd-8912-f7de7b354fe7">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="700209b6-7445-48d5-a18c-6396768d2800">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="724dd5fc-0756-4f51-a1ff-0f870b7b3b90">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>СуммаСНДС</ColumnID>
             </Source>
@@ -935,54 +914,54 @@
           <Visible>false</Visible>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="d858b13c-3357-47e2-ba1d-e4b30d9d4981">
+        <Measure dwd:design-time-name="f3b314ed-7345-44b7-be6e-9670077eb850">
           <ID>Сумма Ручной Скидки</ID>
           <Name>Сумма Ручной Скидки</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="c3357329-5b03-4fa5-9576-17a62d81f94f">
+          <Source dwd:design-time-name="6d219f32-6393-4511-9a1a-0c03a2dabe27">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a5a27002-bc03-4a4f-bcf1-a86897828f00">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ee3dc801-4139-49a8-be46-f97e2367d81a">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>СуммаРучнойСкидки</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="e9c34d9c-b64d-4842-820a-da2fc77ac15c">
+        <Measure dwd:design-time-name="06395eff-e51b-4326-a862-6f0cab449f89">
           <ID>Сумма Автоматической Скидки</ID>
           <Name>Сумма Автоматической Скидки</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="d99dc943-ce7b-4a65-8d25-a37210c64cf4">
+          <Source dwd:design-time-name="5f8cd0a6-d215-4bba-9f3a-c1058bcd1463">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="6d940cff-6be0-4e91-bb3e-1a59393e0c01">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73fa6697-1a55-40f3-aa44-db84cdee8d72">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>СуммаАвтоматическойСкидки</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="a172f38a-cfec-478e-a956-31d0bc54f132">
+        <Measure dwd:design-time-name="afa38d3b-a3dd-42af-bb3d-391b41b59f66">
           <ID>Вес</ID>
           <Name>Вес</Name>
           <DataType>Double</DataType>
-          <Source dwd:design-time-name="e894e050-9682-4543-a199-745d84d44ae9">
+          <Source dwd:design-time-name="cb63e14d-54b4-4835-8c29-0ea43c5b9df7">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="0fd03b2c-402a-4363-8027-661c167de62e">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="64a7ce5a-31f3-40d7-a65c-5c1316f9cb4a">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
               <ColumnID>Вес</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="06b92267-9238-4781-97fb-a0d2b9db6989">
+        <Measure dwd:design-time-name="343a8dd3-661e-4dee-ba00-87aa1f1e2f25">
           <ID>v Заказ Клиента Товары Count</ID>
           <Name>Количество Строк</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="47a772dc-1f2c-4e65-8689-463c75026d42">
+          <Source dwd:design-time-name="b10a01ea-31ca-490a-a3e7-3814b7dd5933">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="42d36641-c8dc-4cdf-9a39-d0b88b5e680e">
+            <Source xsi:type="RowBinding" dwd:design-time-name="3ff1b964-23e5-46e2-94c8-ce98030038a4">
               <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
             </Source>
           </Source>
@@ -992,16 +971,16 @@
       <EstimatedSize>171344625</EstimatedSize>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f5c1b8c2-d152-4658-a06d-1f2d83520c21">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="14a68f64-613c-4686-bdd2-d10fc751728a">
           <CubeDimensionID>Заказ Клиента</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ecc04a2d-2673-4a67-8e25-5e567e2d3edc">
+            <Attribute dwd:design-time-name="a7aebf05-f7e8-4d50-bdea-b7ceead7fcc4">
               <AttributeID>Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a9698cc0-1018-478f-bb4f-5328cf542901">
+                <KeyColumn dwd:design-time-name="e703e1b2-6074-400e-9781-a647756277ac">
                   <DataType>WChar</DataType>
                   <DataSize>49</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a625fdd2-d58c-42de-bb45-e6352e3b77bb">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="24d94298-44e7-4028-85cf-ca4138ececda">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Id</ColumnID>
                   </Source>
@@ -1009,39 +988,39 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="d7a28954-464a-4223-a40f-baf63da2e65d">
+            <Attribute dwd:design-time-name="8d81a8ae-1013-49ac-b654-085fb2e70426">
               <AttributeID>Номенклатура Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="04f59da9-281b-40a0-8efe-6f919fe39548">
+                <KeyColumn dwd:design-time-name="29ed4d0c-6f95-4c40-bfad-5067e02c71cb">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c00e74c-487c-4629-901b-6f4b7d74733e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="acc4fb47-ca62-4d8c-a61b-a6504532acbd">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Номенклатура_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="a7719550-848e-425e-8eca-9fecee478e4a">
+            <Attribute dwd:design-time-name="0478ca61-038f-4bb9-935c-f250ed2d35cc">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="51595138-56b9-4e6a-8ac6-f57480935256">
+                <KeyColumn dwd:design-time-name="e9776bd1-8315-430b-918d-af03612e0f0c">
                   <DataType>WChar</DataType>
                   <DataSize>10</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="57353c63-a558-495f-a7b8-4b96b5fee78d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc7f83a7-3325-4766-8501-2462131356d3">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Date</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="2af7e833-fde4-4841-98df-bcdc2f96a9fc">
+            <Attribute dwd:design-time-name="ee162fff-3853-4301-bba4-706df386dd7d">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6f9c9701-2d0c-421f-b3aa-40372b257322">
+                <KeyColumn dwd:design-time-name="e3038a0a-f16c-43b5-a38a-4a19da4428f1">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="126efc71-4b7f-4c2f-98ae-24b0b95d0645">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fa13c6e7-9cfe-4148-9f27-ed050aa55c50">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
@@ -1050,17 +1029,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5eda2146-9cfd-4485-ad37-907e9ca6165e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="985f3ba5-26dd-4040-8ff8-ad84745d1c5c">
           <CubeDimensionID>Номенклатура Вид-Подвид</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ebde8fdb-3b6e-4627-a79e-a2b655215a83">
+            <Attribute dwd:design-time-name="97a328ff-52f3-4d51-a84f-daca41b7f5d0">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="00293880-8ad5-4474-b44e-c3a12d303fb2">
+                <KeyColumn dwd:design-time-name="daac5605-9e65-4bc7-a838-800263bbd330">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dbdbbd63-19e1-44b5-8291-7d31a133242a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4377c7a2-e6d6-4a41-bd61-4b97d932f1a6">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Номенклатура_Key</ColumnID>
                   </Source>
@@ -1068,28 +1047,28 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="0e04ebbf-6c89-4183-8d2b-16d679a66d6d">
+            <Attribute dwd:design-time-name="c49ae6b6-5e11-4a5e-936c-1e0fd9e02180">
               <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a6df1d52-0b52-4efb-8f65-e7bf31b4b61a">
+                <KeyColumn dwd:design-time-name="c65853e9-37bd-4b2c-a829-92bbd6cf7518">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f91e26cd-7b64-4330-bc02-0769d8174251">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9e1fd04a-97e6-4dea-a5fa-90991d2ee95b">
                     <TableID>dbo_v_ВидыНоменклатуры</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="2d4a6693-d4fb-4ff6-bb59-16a8cd0f6a28">
+            <Attribute dwd:design-time-name="23cd3285-cdc2-42bd-bab9-1cb46156dca2">
               <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c6dd45d2-58ff-45b1-a147-2a59e6d5bed9">
+                <KeyColumn dwd:design-time-name="f024c872-138f-4ddd-a67a-3967968f42fa">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fe00b757-52f2-4b94-843c-41de24ec4a22">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9d7afa77-f7de-4534-8fac-8addcb44c5ce">
                     <TableID>dbo_v_ПодвидыНоменклатуры</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
@@ -1098,16 +1077,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ae48784f-259e-499b-b8a2-84aed9bafa8e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d1711623-3345-4908-bfe0-1e22123f82c0">
           <CubeDimensionID>Календарь</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="51db8a75-822a-4f87-a9e5-544c8a6bb8ee">
+            <Attribute dwd:design-time-name="6d59b5b8-fc70-44a0-a988-82f31c22a394">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="40a278f9-68ee-44c6-b332-ba77da81ee02">
+                <KeyColumn dwd:design-time-name="a39cefc6-c6a2-4041-b8bc-5cbd92019dd6">
                   <DataType>WChar</DataType>
                   <DataSize>10</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="30c06cff-127b-414f-b7a1-376c4f59ab57">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="04eff4be-ace5-43cc-b3c3-b7aba0d23dd0">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Date</ColumnID>
                   </Source>
@@ -1115,84 +1094,84 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="dd8595db-296c-4eb8-af00-018f9147636f">
+            <Attribute dwd:design-time-name="0c9dbd21-ed77-4051-95cb-d42814dc0e5a">
               <AttributeID>Year</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6cdda5ad-9859-4eaf-a9db-b48146be9057">
+                <KeyColumn dwd:design-time-name="05c4b1e0-6c22-4f8a-aec9-7cde49299fcd">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee1d7c46-a9d4-4abe-a513-479b6400d2ad">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="983b326a-3fd1-40c7-b5f1-874ef17f114f">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Year</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="c100a983-dcbb-40f2-b901-66e6cfc135b5">
+            <Attribute dwd:design-time-name="51699339-aa42-4373-aca6-737955f18eba">
               <AttributeID>Month</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="aec98610-3e45-424a-97c5-5bdf4ccd05fa">
+                <KeyColumn dwd:design-time-name="eca83845-a21d-4381-b11b-1a3d1f4c71b5">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b65e5c41-0b4b-4d7b-b4f2-f82442ed9b5e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="06e8cf5e-2124-4996-b403-4d4958f72a2d">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Month</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="fa4db09d-bc20-42d8-8a57-6483ffdd5736">
+            <Attribute dwd:design-time-name="06b0a7b5-64cd-417f-a6a0-d50076f738b8">
               <AttributeID>Month Name</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="61f062c8-3987-4559-b0d0-135fe88319d6">
+                <KeyColumn dwd:design-time-name="8be2c3c2-c6f3-4dfe-a3c0-ea19d7119bc2">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a37fcb0-2676-42d2-82f0-feb6c344908e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7a892512-cfbd-4d13-a898-a269b4c247d2">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Month</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="ec44135a-9b93-4452-89f8-8a93a7182ab1">
+            <Attribute dwd:design-time-name="ca3e2c4e-8ee5-44f6-834b-0c7c667c90f4">
               <AttributeID>Day</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fe944a35-e330-43c4-995b-bcd92a45a95c">
+                <KeyColumn dwd:design-time-name="322b176d-66dd-4aa6-a67f-7f68de78aa47">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f727a7c3-8bed-49d5-8ec6-891042d66780">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="230a29df-fd2b-4a4b-ae48-561828460efd">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Day</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="6862c29e-741a-403d-9f37-dfba07ee671e">
+            <Attribute dwd:design-time-name="dc0253db-71a7-4501-8158-8d2ca70c81d2">
               <AttributeID>Week</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b53cefab-4249-4a39-8d63-7756c1c6bbfd">
+                <KeyColumn dwd:design-time-name="5cf98a65-f967-44f5-b3a6-af5157d46064">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="192112ca-87d0-46e5-81e0-26ca9e32365e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="54040c34-6986-4e0e-94d2-5e32b5ee4872">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Week</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="902ae0b6-8142-4d1c-8562-84b00f8851e6">
+            <Attribute dwd:design-time-name="3355e5b4-eafb-4b2a-b6c0-44ab50f9265f">
               <AttributeID>Weekday</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="addf75de-f639-4f36-a5f4-23d7ac2e6508">
+                <KeyColumn dwd:design-time-name="c8a68298-ce11-4308-8b57-c5eb7ee1337a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3276ba94-3d8c-4a0e-8d13-cfb623a3e7db">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab716f4b-58f6-433a-8ac5-5a4540186eb2">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Weekday</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="b7f7537b-b9d1-4f30-b4ff-2fd6b4974b7b">
+            <Attribute dwd:design-time-name="f9020bb4-189f-4f6c-8d41-801abf018190">
               <AttributeID>Weekday 1</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="532671f1-5907-43fb-b7c9-1a0b0da56713">
+                <KeyColumn dwd:design-time-name="423a2412-59f9-4980-b1ad-9e5e16f07ddf">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63ecc332-e342-4a22-9a23-62451d741a7d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f736dd47-9168-41cd-a3ac-7ad8f1187895">
                     <TableID>dbo_Calendar</TableID>
                     <ColumnID>Weekday</ColumnID>
                   </Source>
@@ -1201,16 +1180,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dba339ed-7923-415b-ac2a-34d03082f01a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7eb86164-23b5-4a22-b27b-993ad1d3f44f">
           <CubeDimensionID>Отменено</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="942ffb2b-3c13-41ed-92c5-3395157ed511">
+            <Attribute dwd:design-time-name="57c95e92-a49e-4d3e-a242-f5ce55265e3d">
               <AttributeID>Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9344cd90-840c-4fcb-a2aa-166238fd2218">
+                <KeyColumn dwd:design-time-name="dc795464-4d13-4677-81b5-c934d3518b11">
                   <DataType>Boolean</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0cbe2ec7-48d7-42d1-9e2a-22472ec403cf">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0471959d-bfc2-4996-b9c6-de30961daa1b">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Отменено</ColumnID>
                   </Source>
@@ -1220,16 +1199,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b8856f3e-cb30-4455-816b-060d9eae18cc">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ebae03bb-7ca9-44a5-aa6b-925537786ada">
           <CubeDimensionID>Склады</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="d21d0b09-be85-4e89-86aa-85f19a38594c">
+            <Attribute dwd:design-time-name="f88d2850-b523-45a0-91eb-67fa3fa20b5f">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9a7869f8-65c3-402f-91a5-15a3ade81b6a">
+                <KeyColumn dwd:design-time-name="ca125455-78ca-413a-bf5a-6f97c19a7f91">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4ca3aad9-6175-4cb8-98fc-afaaecbe0d91">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f30a582-8eec-4d60-bd13-6db26e822609">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Товары_Склад_Key</ColumnID>
                   </Source>
@@ -1237,13 +1216,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="62e129df-34cb-40f0-9e30-b29fb9096ed1">
+            <Attribute dwd:design-time-name="630f5e1b-4467-45d6-ba11-72b87c9b8047">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="92341dab-9519-48b9-b222-034576c847df">
+                <KeyColumn dwd:design-time-name="1b54b494-eb7a-4c9e-a12a-7427e8ed823a">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="15e8e3d5-53a7-45ed-9b5c-5462e271eba3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="26d71e1b-45bd-4734-806d-29d6efc15661">
                     <TableID>dbo_v_Склады</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
@@ -1252,15 +1231,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2d582964-bab4-4223-9d9c-2550d685af09">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1dfaf863-608c-4a73-9378-31bd38dea8c6">
           <CubeDimensionID>Согласован</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="b2e602ee-cc9a-44c4-bc99-cd75251878f8">
+            <Attribute dwd:design-time-name="3103e569-9643-4666-943c-30305349f3d8">
               <AttributeID>Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="15b1bb80-f4a7-4384-b07c-f938cd2ce478">
+                <KeyColumn dwd:design-time-name="401ab022-1249-4a7d-b24b-5c608860e325">
                   <DataType>Boolean</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ae42a8fb-6144-437c-b5df-34e34811a8d6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="14d943d1-6211-4fdd-ab6d-279f9fb23ad7">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Согласован</ColumnID>
                   </Source>
@@ -1270,17 +1249,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f85fbe71-98a4-4be1-a9e9-69d5151ef2cf">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="03989535-b504-4209-b955-d7411d8cd5c6">
           <CubeDimensionID>Партнеры</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2c79e7ed-e85a-4068-8460-ded51278ca63">
+            <Attribute dwd:design-time-name="0ece03a2-b475-4cf6-9331-bd0f9cd658fe">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fa5db7ca-77f9-4e0c-9d3d-84f49893b733">
+                <KeyColumn dwd:design-time-name="5a8d7abe-4dbe-4fba-9b48-7a2a85ac46e0">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b2fe1c9-141b-4ab7-8aeb-9125f03087e0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7d91c7c-8b8e-453f-a50b-3c8d2202727b">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Партнер_Key</ColumnID>
                   </Source>
@@ -1288,39 +1267,39 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="2cbb8c2b-e286-445e-bb0d-2601fe4c6fb2">
+            <Attribute dwd:design-time-name="5b0e1b0c-d191-414e-a65a-fa2d56c6ef54">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f45db877-135b-4c59-8ad7-42ce4823471a">
+                <KeyColumn dwd:design-time-name="9125cb01-9f38-4ded-a7f5-3a80533c960b">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d429a8e4-bec4-485a-84a6-b290f2295e1b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="38c58a19-1995-42e9-8ea2-098ec75598d6">
                     <TableID>dbo_v_Партнеры</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="a5ef9c99-11a3-47e5-80cf-6190f192e787">
+            <Attribute dwd:design-time-name="53c9ddf0-b981-417a-be77-0f5b0b45f138">
               <AttributeID>Бизнес Регион Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="bbcdcc4d-784b-4c50-8020-f77b771ae917">
+                <KeyColumn dwd:design-time-name="ec31d526-e3d9-4073-8bbf-a91f8fba993d">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a5ca6e59-3dc4-4b4f-8919-201927590134">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="45cd3c67-ed85-434e-bbe3-7c4bccd43c8e">
                     <TableID>dbo_v_Партнеры</TableID>
                     <ColumnID>БизнесРегион_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="c85a06fe-be2c-4efe-861b-ff138c2df6fc">
+            <Attribute dwd:design-time-name="d050efbe-0353-4f25-b4ca-65de2e717d78">
               <AttributeID>Основной Менеджер Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="138537a7-b0fa-4a24-ba10-d3f1d950b173">
+                <KeyColumn dwd:design-time-name="cb98452b-7628-48ff-8654-9b34f0e928fe">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6a8e3d35-c7df-4540-a75d-c91207554f34">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="50b9e28e-3009-4a7a-bffd-570fa76d9711">
                     <TableID>dbo_v_Партнеры</TableID>
                     <ColumnID>ОсновнойМенеджер_Key</ColumnID>
                   </Source>
@@ -1329,16 +1308,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="976d8abd-bbb7-450b-b535-125235886be3">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5ac157a8-cc81-4352-b195-8f4753c8bdfe">
           <CubeDimensionID>Партнеры - Пользователи - Схема Предприятия</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1d7e536f-7655-40ca-b199-30d774fd1410">
+            <Attribute dwd:design-time-name="d26bf17c-6b32-412b-89fe-24f9316fc5d3">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d0f4d2a1-ee7b-4de4-b353-664c7b897111">
+                <KeyColumn dwd:design-time-name="e698b44e-cef7-4681-8ac7-1a0248062938">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2a176a86-d9b8-4fd0-a8ee-d417c47eb034">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="91fa3c3c-2e34-404e-926d-3ab2e2f10942">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Партнер_Key</ColumnID>
                   </Source>
@@ -1346,13 +1325,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="89431c29-78ec-456c-ad28-97de300e1879">
+            <Attribute dwd:design-time-name="7a55f581-fd7f-43b3-b170-40d86a07dde5">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="38fa1351-ca4c-457d-a813-f6a5664d9382">
+                <KeyColumn dwd:design-time-name="a3243dfd-6d74-4502-a5be-30fcb370e182">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d346a3fe-4dc2-46ed-a423-418317cf6107">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="508417e0-f2f0-48bd-9585-078319a2eea3">
                     <TableID>dbo_v_Партнеры_Пользователи_СхемаПредприятия</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
@@ -1361,17 +1340,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bfa7d9ce-4089-4a47-a3f7-6e525632bd0e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4ca4c6c9-5b2e-4650-a678-9395ded6e2e1">
           <CubeDimensionID>Номенклатура</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ded3367f-a7c2-4e6e-991d-aadb341e979c">
+            <Attribute dwd:design-time-name="12f10a46-b115-46ff-a77d-88e0b623612d">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5db2f2e5-ca6d-4ec1-8ac6-74b23e4c814f">
+                <KeyColumn dwd:design-time-name="cb142087-d6bf-4fc3-ad8e-92a4d2217a1a">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37c3f5ac-8b67-430b-b715-8daaa1b4ed43">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9fe63c5f-4dc1-401b-996b-03640a677df1">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Номенклатура_Key</ColumnID>
                   </Source>
@@ -1381,17 +1360,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4d07ffc2-b76e-4bda-af19-391583813b3d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="18889edd-a397-4f65-ba5a-1cf0cd9ad7c7">
           <CubeDimensionID>Номенклатура Вид-Подвид-Базовая</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="adc88cd1-0a47-4845-a0a3-ce8ef711a457">
+            <Attribute dwd:design-time-name="09ebb3aa-c441-471a-a199-1c0ff9dbed84">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="09ca134b-b490-479b-9ca4-9010737b43c0">
+                <KeyColumn dwd:design-time-name="501228fd-1cbf-488a-b634-0ad24df62c5c">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7aa287d1-041f-4475-9fe6-f1fc6054c7d0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="16682200-dc2d-4500-a72f-90dee9ad56e3">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Номенклатура_Key</ColumnID>
                   </Source>
@@ -1399,42 +1378,42 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="24ff20d0-5c16-4a8b-81fb-0fb6ebce7f0e">
+            <Attribute dwd:design-time-name="70b5fbe4-c7d9-4e9f-a0d0-d1dfeb428826">
               <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="03f4f1d2-e14a-4e86-a0c6-c0ca4a70a381">
+                <KeyColumn dwd:design-time-name="f94f66e7-1b8c-4883-a197-91faf5f7a52f">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4cac3d50-0e6d-491a-9bd6-a38984bffc9f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b88fc059-d4f7-44b7-907c-896949b0fe52">
                     <TableID>dbo_v_ВидыНоменклатуры</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="d82f785a-f3f7-46a4-9b4d-e900129386e9">
+            <Attribute dwd:design-time-name="627e74c9-357f-45a4-b6c1-5283d97d8be2">
               <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7c877427-4249-46ef-8b36-ad86d9a3b5eb">
+                <KeyColumn dwd:design-time-name="dc991e82-12ad-433d-8151-aa9c68c8dec2">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10bcdebf-f6d6-4155-993f-faa46386064c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="adf65e9e-5293-4eb0-b493-0257237d6d38">
                     <TableID>dbo_v_ПодвидыНоменклатуры</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="e65621b1-a53e-4d19-8e6c-f1f01802849a">
+            <Attribute dwd:design-time-name="8421ba2a-ea07-45b1-8c64-5eab4ecc9e15">
               <AttributeID>v Базовая Номенклатура - Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e5641fc8-9350-46f3-adf1-f19f1732f088">
+                <KeyColumn dwd:design-time-name="f74f4b12-20af-48af-804c-c3b841538a0a">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec6a67a9-889b-4c71-8c28-53f00a032c23">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="19ccd4f5-fc3f-4d6c-a9b4-a7f68d4c3920">
                     <TableID>dbo_v_БазоваяНоменклатура</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
@@ -1443,17 +1422,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="37f531e8-ca05-468b-8a9d-1148bfd6de91">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1c190db3-8f11-43eb-8f0f-84158076e7fb">
           <CubeDimensionID>Номенклатура Каталог</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="654d945b-1514-4ece-b16a-3f177bfe1f4b">
+            <Attribute dwd:design-time-name="c92bea6f-b060-4853-a144-eb9056157ab9">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="661aa075-b430-407b-b83f-2583a5317c3b">
+                <KeyColumn dwd:design-time-name="95f20da9-f749-42f2-bec1-ad73ba931c8a">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc6f718c-3fad-4417-b094-9415cc27022d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="02e410a5-ab69-4b52-9d6f-9ee3631fec27">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Номенклатура_Key</ColumnID>
                   </Source>
@@ -1461,13 +1440,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="56431349-7960-4465-9ca3-457c0f0d3dff">
+            <Attribute dwd:design-time-name="64e3a246-12a4-430a-aacb-f1f767988aa6">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="0e4cf04e-e80a-45a7-9bd7-e73f17aabc9a">
+                <KeyColumn dwd:design-time-name="c3597dae-1d47-478b-a64c-b9edde721824">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c7e98018-ee16-492d-a84b-eda532c464ab">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="429070ed-cae6-4f30-a756-043a24163092">
                     <TableID>dbo_v_Номенклатура</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
@@ -1476,17 +1455,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6bf62861-5eb4-4a82-ad5a-9c45ea33429f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0f10e172-5a7e-419e-a8b4-b15ff176f5d0">
           <CubeDimensionID>Номенклатура Каталог-Базовая</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="89de1de2-216a-4a27-9d27-7c9c9156fbc1">
+            <Attribute dwd:design-time-name="23a9bd51-d802-4cb9-b8df-91c1b4acb76e">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="908ad5c3-20c3-4879-87a4-e0be45e0f88c">
+                <KeyColumn dwd:design-time-name="70a31867-5fa7-4328-968f-b454efa8070d">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f1a88984-98aa-4e31-9da6-00917e2a417a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="337bf8c3-bcb8-4d03-9aa5-131439188d5a">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Номенклатура_Key</ColumnID>
                   </Source>
@@ -1494,13 +1473,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="fa049a65-836c-45b9-b7d9-82143e81a420">
+            <Attribute dwd:design-time-name="f761b356-7863-41ae-b857-bbc132b4d067">
               <AttributeID>Parent Базовая Номенклатура Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="0edbaafb-0d49-4c43-b155-ead6a6209744">
+                <KeyColumn dwd:design-time-name="428515b2-66f6-4320-b2a9-526beb02886a">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a9f3a26c-9ec9-45d2-8994-741f77c3fe7e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d8b2f838-b23e-40f7-8366-0f30f6ca15ca">
                     <TableID>dbo_v_Номенклатура</TableID>
                     <ColumnID>Parent_БазоваяНоменклатура_Key</ColumnID>
                   </Source>
@@ -1509,24 +1488,24 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="f0412e75-d87f-468d-bfe1-2dde410e3128">
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="dbe36743-544d-46fa-b1ef-1ff316b7b939">
           <CubeDimensionID>Виды Деятельности</CubeDimensionID>
           <MeasureGroupID>Catalog Партнеры Виды Деятельности</MeasureGroupID>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="639b9637-3ede-4713-80ed-dbfa5fcedac8">
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="1bca5c7c-0b8b-4628-872c-dcfb3a537734">
           <CubeDimensionID>Партнеры - Виды Деятельности</CubeDimensionID>
           <MeasureGroupID>Catalog Партнеры Виды Деятельности</MeasureGroupID>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fbf64760-266c-456e-ad06-19d708dc578c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b9537f76-e264-43c7-931d-7fce4f9a902b">
           <CubeDimensionID>Партнеры - Пользователи</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a71ff51e-9302-4bc4-9920-5e3fc9bd6d5a">
+            <Attribute dwd:design-time-name="d0109595-1747-4fd8-a79e-6dbb602111b1">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="44c445a9-d5bb-4a75-8928-b808710e045b">
+                <KeyColumn dwd:design-time-name="5c7b8cd6-1e61-4dc0-a0d3-35f22fa42206">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ebe55809-46c0-40fa-96ad-d8f1932cbef9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f1fce7d4-68e4-40ff-b95f-5197f1e314de">
                     <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
                     <ColumnID>Партнер_Key</ColumnID>
                   </Source>
@@ -1534,13 +1513,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="6fffdbdf-420b-4928-9149-fd13cf9c07d5">
+            <Attribute dwd:design-time-name="70be8295-a337-4748-97e3-8b125296c379">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cefc1d53-152f-4a02-ad60-b8e8adf0a14d">
+                <KeyColumn dwd:design-time-name="1ddbeb3e-66f5-48f6-86a9-31b54ca98ba9">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="766256af-6f6a-46e6-ae10-8c26174f41bf">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d24bbf1-bf06-4cbf-b29b-bb914705f6a5">
                     <TableID>dbo_v_Партнеры_Пользователи</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
@@ -1549,51 +1528,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0a1753b2-2b5d-42f0-9aa7-d06140f70474">
-          <CubeDimensionID>Номенклатура - Типы Упаковки</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="a2c05287-5a4a-4881-824d-075509811449">
-              <AttributeID>Ref Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="bb360a10-45ff-4b3a-bd52-206bd14f67b0">
-                  <DataType>WChar</DataType>
-                  <DataSize>36</DataSize>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="761b6329-5f2a-49a5-a9c0-6ebd4710b603">
-                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
-                    <ColumnID>Номенклатура_Key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-            <Attribute dwd:design-time-name="80b4825e-961e-4199-9183-aa449ab1e90a">
-              <AttributeID>v Значения Свойств Объектов Типы Упаковки - Ref Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="6386c3c4-2648-4be7-8391-dee95275fa9e">
-                  <DataType>WChar</DataType>
-                  <DataSize>36</DataSize>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6a3a6b03-e369-4d24-9978-988affa160ae">
-                    <TableID>dbo_v_ЗначенияСвойствОбъектов_ТипыУпаковки</TableID>
-                    <ColumnID>Ref_Key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-            </Attribute>
-          </Attributes>
-        </Dimension>
       </Dimensions>
       <Partitions />
-      <ProactiveCaching dwd:design-time-name="d8273395-4e63-4e51-8d96-e0e0bfbd3633">
+      <ProactiveCaching dwd:design-time-name="81842094-7615-4c32-8cf3-41a5c1595913">
         <SilenceInterval>-PT1S</SilenceInterval>
         <Latency>-PT1S</Latency>
         <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
         <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="9bdc5156-0c9c-4746-aabf-4c166e1c1e22" />
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f2b14a7c-9e71-4789-8cc5-bfc5d535d3b7" />
       </ProactiveCaching>
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="b322589f-b116-457f-af4f-ff7f5c39694b">
+    <MeasureGroup dwd:design-time-name="f814ae5d-e508-44f4-bc88-782c3db8d53b">
       <ID>Catalog Партнеры Виды Деятельности</ID>
       <Name>Партнеры - Виды Деятельности</Name>
       <CreatedTimestamp>2023-12-01T14:14:56.106667Z</CreatedTimestamp>
@@ -1601,15 +1546,15 @@
       <LastProcessed>2025-07-03T04:03:38.92Z</LastProcessed>
       <State>Processed</State>
       <Measures>
-        <Measure dwd:design-time-name="e87e7368-ea5a-4002-8551-177b7c8d1842">
+        <Measure dwd:design-time-name="471a7a4e-137f-4196-a51a-1b0f9f07843c">
           <ID>Catalog Партнеры Виды Деятельности Count</ID>
           <Name>Партнеры - Виды Деятельности Count</Name>
           <AggregateFunction>Count</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="d322be36-5f3e-47b2-9072-b5cf84623509">
+          <Source dwd:design-time-name="e28402a8-b405-4533-b52c-a6aa9d174ca3">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="15f2702a-6a27-499e-b870-787f884810e4">
+            <Source xsi:type="RowBinding" dwd:design-time-name="730887a1-da2f-4cea-ac68-f4ad1963289b">
               <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
             </Source>
           </Source>
@@ -1619,16 +1564,16 @@
       <EstimatedSize>18623</EstimatedSize>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="42109a3e-04c4-412d-9625-2f0100f4529d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8f5f75c8-9030-43d1-a675-fc3d63d7e178">
           <CubeDimensionID>Виды Деятельности</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="91e6a377-6829-4020-88f2-2188dd1a7967">
+            <Attribute dwd:design-time-name="2e3151d4-b7df-4f98-85d0-347415976d67">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c5ea195a-aa92-44dd-abfb-7532976b2eda">
+                <KeyColumn dwd:design-time-name="1cb5397b-4da0-4af7-889e-9001b0f2bed9">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a17b1361-94e5-4c80-b044-72f47e063043">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="43e22bba-aec6-45ec-8a9e-a400cf75651c">
                     <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
                     <ColumnID>ВидДеятельности_Key</ColumnID>
                   </Source>
@@ -1636,13 +1581,13 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="1da8d4e0-4636-4b55-bf86-80a4c72eb1f5">
+            <Attribute dwd:design-time-name="b12bd914-6fe1-4718-a320-dddbd315bb78">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e8724275-92ad-4ad5-beae-bac9acab05f8">
+                <KeyColumn dwd:design-time-name="d42aa9ce-8213-4307-a81c-7df3791a6263">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="652d41d0-8764-4e09-80b9-741264dea39d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b5a59467-1848-412b-b0b3-5fee42947537">
                     <TableID>dbo_v_ВидыДеятельности</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
@@ -1651,16 +1596,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ed3a6bea-de97-4892-beba-b9f5c2c958e8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b54ccced-54d6-40f5-99ad-d845c1691634">
           <CubeDimensionID>Партнеры - Виды Деятельности</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="bf949494-7137-40a5-ac1c-ab52541fa06f">
+            <Attribute dwd:design-time-name="5e21fcd8-c62b-4092-a83d-86019b30b3c9">
               <AttributeID>Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="8119e7c2-e329-4601-bf8a-6cda08213d43">
+                <KeyColumn dwd:design-time-name="bf427af0-aae0-4b68-9011-23f290c712a7">
                   <DataType>WChar</DataType>
                   <DataSize>49</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="60cfa166-70ba-4a90-9ad9-3ce4eb147c3d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6b923efa-96ff-4814-9b5f-6ee1c3d1f37d">
                     <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
                     <ColumnID>Id</ColumnID>
                   </Source>
@@ -1668,26 +1613,26 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="df4daa6e-24f5-48e9-b292-12242d41ae21">
+            <Attribute dwd:design-time-name="d175d72f-89a2-4939-9268-626cfd57cf7b">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7d6339e1-d7a4-4333-b493-3422f92edede">
+                <KeyColumn dwd:design-time-name="731defa1-9e8d-42a9-b92b-d23e08d5a488">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="90b9c69e-0818-4c78-b2b7-97ad35218218">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="71ae19cb-60f5-492b-8eb1-6c96fab74db4">
                     <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="e2b47b06-a9ea-43c1-b6aa-26e514f908f3">
+            <Attribute dwd:design-time-name="1da52770-ca6d-4692-ba41-e3f638c35ddc">
               <AttributeID>Вид Деятельности Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7a785c2c-8589-428f-8e3d-6ed2cfd63322">
+                <KeyColumn dwd:design-time-name="4f4a69eb-7118-4531-9d5f-d7ba595be0f1">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0421f4f3-8111-47c9-b55a-e8fe1cd1b53e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c9a5d8a5-366f-417d-983d-1ba90bbc9563">
                     <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
                     <ColumnID>ВидДеятельности_Key</ColumnID>
                   </Source>
@@ -1696,17 +1641,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7776c5ff-ed4f-4a5a-844a-52c8dea1fce6">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3bbb19f1-da83-4f04-a80a-f79a05f2aa9a">
           <CubeDimensionID>Партнеры</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ad895fe6-f2f3-4146-b141-33a4bc19dfa0">
+            <Attribute dwd:design-time-name="dfc03d09-e8e8-4b77-af17-67d7ce42c390">
               <AttributeID>Ref Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="531e7406-694f-4f7d-bdba-43ace22ffd06">
+                <KeyColumn dwd:design-time-name="97fd6023-0e2c-47ba-8dd7-920e59c76948">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3ab93722-517f-4cf8-a813-6ccea00bd9b3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9e52e71b-0616-4507-9b62-a4a68e78f867">
                     <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
                     <ColumnID>Ref_Key</ColumnID>
                   </Source>
@@ -1714,39 +1659,39 @@
               </KeyColumns>
               <Type>Granularity</Type>
             </Attribute>
-            <Attribute dwd:design-time-name="b8da7fcc-8c17-48d5-85d2-6b201c7a7a29">
+            <Attribute dwd:design-time-name="cd2a3408-2690-4553-92ce-9f4fd2331ffb">
               <AttributeID>Parent Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f005da0c-557f-4edd-826a-992d35ca905a">
+                <KeyColumn dwd:design-time-name="70957c05-fa2c-4874-893e-a50bd13fe7c8">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="849148f7-c6c6-4c51-8528-7e39cc80117f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="67782eea-469b-4e1a-a97b-aefd211503c9">
                     <TableID>dbo_v_Партнеры</TableID>
                     <ColumnID>Parent_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="55453f77-4bfe-4982-90bf-2603c79a0a1a">
+            <Attribute dwd:design-time-name="34cb20ab-44e0-4353-92cd-1249e9f3527b">
               <AttributeID>Бизнес Регион Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6de11342-f158-4144-82a2-78b9dfe0b0e3">
+                <KeyColumn dwd:design-time-name="e809e7c9-9d82-4ee4-98a7-8137bae3b204">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4f473cd-fc63-42b3-9d71-d2b500df0f54">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="36fe1f75-ad7d-43b0-a4e2-62787e154df4">
                     <TableID>dbo_v_Партнеры</TableID>
                     <ColumnID>БизнесРегион_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
             </Attribute>
-            <Attribute dwd:design-time-name="1e0d0723-c0f5-42b5-914e-d2d24746c917">
+            <Attribute dwd:design-time-name="682343f0-6249-4df1-b6d9-af4a45041461">
               <AttributeID>Основной Менеджер Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="10e3baf4-8bee-47e5-86f0-4067c1c53c93">
+                <KeyColumn dwd:design-time-name="8e3aaf83-925d-40ec-83d6-59cdb2e69feb">
                   <DataType>WChar</DataType>
                   <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f23f9e20-202f-4c47-a88e-b12b36db200e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="60f6482e-a9ce-43f9-a135-cfa7712ca1c0">
                     <TableID>dbo_v_Партнеры</TableID>
                     <ColumnID>ОсновнойМенеджер_Key</ColumnID>
                   </Source>
@@ -1757,23 +1702,23 @@
         </Dimension>
       </Dimensions>
       <Partitions />
-      <ProactiveCaching dwd:design-time-name="dee615c1-efa9-412e-950b-dd21d684306b">
+      <ProactiveCaching dwd:design-time-name="34ad89ce-ed87-4aaa-89bc-3a7e7105aa77">
         <SilenceInterval>-PT1S</SilenceInterval>
         <Latency>-PT1S</Latency>
         <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
         <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1dfaa034-6ad9-47dc-9e05-2e8ddfcb7c34" />
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="e3410617-97d5-49f0-b937-0bbabbb38921" />
       </ProactiveCaching>
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="370cec17-5c8e-4ba7-a176-ee03e5fe29ad">
+  <Source dwd:design-time-name="e0147df9-ee12-43f2-bf43-e70686fac712">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
-  <ProactiveCaching dwd:design-time-name="bcf5d9e0-5156-47a1-ac04-e39356ec6049">
+  <ProactiveCaching dwd:design-time-name="4348f483-5779-4adf-938f-1449a3930c7a">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8ffe0c7e-2fd6-48fe-bd9d-03b263873b35" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f5f08a11-0a13-4df7-921d-865a3496ac44" />
   </ProactiveCaching>
 </Cube>
