@@ -227,6 +227,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -432,6 +442,10 @@
     <ProjectItem>
       <Name>Номенклатура Вид-Подвид-СуперБазовая.dim</Name>
       <FullPath>Номенклатура Вид-Подвид-СуперБазовая.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Пользователи - Структура Предприятия.dim</Name>
+      <FullPath>Партнеры - Пользователи - Структура Предприятия.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
