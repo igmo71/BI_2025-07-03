@@ -28,12 +28,12 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.cube</Name>
-      <FullPath>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.cube</FullPath>
+      <Name>Выручка И Себестоимость Продаж - Себестоимость - Ст Пр.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Себестоимость - Ст Пр.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.partitions</Name>
-          <FullPath>Выручка И Себестоимость Продаж - Цены закупочные - Ст Пр.partitions</FullPath>
+          <Name>Выручка И Себестоимость Продаж - Себестоимость - Ст Пр.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Себестоимость - Ст Пр.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -465,11 +465,19 @@
       <Name>Упаковки Единицы Измерения.dim</Name>
       <FullPath>Упаковки Единицы Измерения.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Пользователи Без - Сх Пр.dim</Name>
+      <FullPath>Партнеры - Пользователи Без - Сх Пр.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>WH.ds</Name>
       <FullPath>WH.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>WH_dev.ds</Name>
+      <FullPath>WH_dev.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
@@ -488,11 +496,51 @@
             <Name>WH</Name>
             <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=VM-BI-SQL;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH</Value>
           </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WH_dev</Id>
+            <Name>WH_dev</Name>
+            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Data Source=vm-bi-sql;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH_dev</Value>
+          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>WH</Id>
             <Name>WH</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WH_dev</Id>
+            <Name>WH_dev</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <DeploymentServerEdition>Enterprise</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>WH</Id>
+            <Name>WH</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=VM-BI-SQL;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WH_dev</Id>
+            <Name>WH_dev</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=vm-bi-sql;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH_dev</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>WH</Id>
+            <Name>WH</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WH_dev</Id>
+            <Name>WH_dev</Name>
             <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
