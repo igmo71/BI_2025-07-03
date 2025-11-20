@@ -455,15 +455,19 @@
       <Name>Expense Items.dim</Name>
       <FullPath>Expense Items.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Канал Реализации.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Канал Реализации.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Способы Доставки.dim</Name>
+      <FullPath>Способы Доставки.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>WH.ds</Name>
       <FullPath>WH.ds</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>WH_dev.ds</Name>
-      <FullPath>WH_dev.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
@@ -512,21 +516,11 @@
             <Name>WH</Name>
             <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=VM-BI-SQL;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH</Value>
           </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>WH_dev</Id>
-            <Name>WH_dev</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=vm-bi-sql;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH_dev</Value>
-          </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>WH</Id>
             <Name>WH</Name>
-            <Value xsi:type="xsd:int">1</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>WH_dev</Id>
-            <Name>WH_dev</Name>
             <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
