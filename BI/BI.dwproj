@@ -237,6 +237,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Затраты По Реализациям.cube</Name>
+      <FullPath>Затраты По Реализациям.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Затраты По Реализациям.partitions</Name>
+          <FullPath>Затраты По Реализациям.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Затраты По Реализациям 2.cube</Name>
+      <FullPath>Затраты По Реализациям 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Затраты По Реализациям 2.partitions</Name>
+          <FullPath>Затраты По Реализациям 2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -458,6 +478,18 @@
     <ProjectItem>
       <Name>Способы Доставки.dim</Name>
       <FullPath>Способы Доставки.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Подразделение - Набор Статей - Статья.dim</Name>
+      <FullPath>Подразделение - Набор Статей - Статья.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Каналы Реализации.dim</Name>
+      <FullPath>Каналы Реализации.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Календарь По Месяцам 2.dim</Name>
+      <FullPath>Календарь По Месяцам 2.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

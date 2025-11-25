@@ -1,0 +1,353 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0413b280-a180-450a-9306-111abc47d5db" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Затраты По Реализациям 2025-11-25</ID>
+  <Name>Затраты По Реализациям 2025-11-25</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3eeb3348-c886-44ca-8797-3965178c2f9f">
+      <ID>Подразделение</ID>
+      <Name>Подразделение</Name>
+      <DimensionID>v Подразделение Набор Статей Статья</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9e4979bc-1893-4811-a139-634e99f3c80b">
+          <AttributeID>Статья</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2dcc38cb-99c8-45c5-8c78-400902e77082">
+          <AttributeID>Подразделение</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d5aea68-b23b-4561-bb21-c33760da22a1">
+          <AttributeID>Набор Статей</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="ce2e55a4-047f-40f1-9c3a-94cdac461204">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="78aeb006-7e84-4d37-8f44-ff875145f512">
+      <ID>Набор Статей</ID>
+      <Name>Набор Статей</Name>
+      <DimensionID>v Подразделение Набор Статей Статья</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d213341d-cd70-4946-89bf-3a0f9ac0b448">
+          <AttributeID>Статья</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c30b5d67-d641-48a6-b5c9-fba4c6ab1006">
+          <AttributeID>Подразделение</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9acc9c4b-3e50-464d-939e-211b53f35889">
+          <AttributeID>Набор Статей</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="41846f06-bc42-42ab-aca2-cf800d213ea8">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="03b22b7e-c259-4220-8019-436a6eadfe89">
+      <ID>Способы Доставки</ID>
+      <Name>Способы Доставки</Name>
+      <DimensionID>Способы Доставки</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3fe06a57-7d52-486c-822a-a85272d207e3">
+          <AttributeID>Способ Доставки</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="73a61e54-7f5b-40c2-84a2-3b0a00156ec1">
+      <ID>Каналы Реализации</ID>
+      <Name>Каналы Реализации</Name>
+      <DimensionID>Каналы Реализации</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5b474f24-91c1-45b8-818d-77106d5292b8">
+          <AttributeID>Канал Реализации</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b5fb0a30-b33e-45b0-90f3-bddbdf1ca94d">
+      <ID>Календарь По Месяцам 2</ID>
+      <Name>Календарь По Месяцам 2</Name>
+      <DimensionID>Календарь По Месяцам 2</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a06406a6-a497-4f2a-bcec-6d2958cdb92d">
+          <AttributeID>Year Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d410ba82-682f-45d8-b7ba-0ff30c078d89">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da34de37-5583-40a7-9258-1af7d7fe6ec9">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af8ebf47-4710-4b0e-8b0d-dc4bd874e3b4">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="dfc63403-cb0e-4123-95b2-dd1545c44a95">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="f65dcc7a-e598-4747-98ca-4a050a74a9c6">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="221352c7-feca-4512-9e23-3d1559009baa">
+      <ID>Склады</ID>
+      <Name>Склады</Name>
+      <DimensionID>Склады</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e14e02ed-190e-446f-addc-88e0a9412546">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88abf0d3-77a6-471f-a98b-03e24f339305">
+          <AttributeID>Parent Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fb58988b-a1fd-4790-9b04-367eefea788d">
+      <ID>Номенклатура Вид-Подвид</ID>
+      <Name>Номенклатура Вид-Подвид</Name>
+      <DimensionID>Номенклатура Вид-Подвид</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5eefb9e5-3f5b-47e0-bab8-63518b867eb3">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71ace7d6-0c46-46d3-8f12-d21dc60f8dca">
+          <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68be102f-2581-46d5-bd93-19cc35804566">
+          <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e8b83195-cc9c-4666-8567-46c457e7c663">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="14e6a83d-6442-4aa9-996c-956f0cd8738f">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="124ebfca-3d30-4f60-90d4-c28196bfe136">
+      <ID>Expense Затраты По Реализациям 2025-11-25</ID>
+      <Name>Expense Затраты По Реализациям 2025-11-25</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c45fce0a-fb30-4967-877f-159e5d6c02b0">
+          <ID>Расчетное Значение</ID>
+          <Name>Расчетное Значение</Name>
+          <Source dwd:design-time-name="f75d42fe-1487-4fc4-aec7-fa94b4ab52da">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c2bd159-c47c-49a5-8c6e-35039cca7d20">
+              <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+              <ColumnID>Расчетное_Значение</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="11c1ef5a-fa7e-45a5-8760-c82bc242e2eb">
+          <ID>Expense Затраты По Реализациям 2025-11-25 Count</ID>
+          <Name>Expense Затраты По Реализациям 2025-11-25 Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2e451b69-2230-437d-9d2a-0e53a393bd38">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7d8a76ea-03a9-4365-9803-349dc31cd089">
+              <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9bce4ed1-46f2-4057-b996-16f9dfcc0c1e">
+          <CubeDimensionID>Календарь По Месяцам 2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="67b8439e-19b3-403c-967f-97d5e1086562">
+              <AttributeID>Year Month</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="34aff952-0690-4978-a16e-492e44273f63">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="49e99ae5-1d28-4eac-b1d3-c7f5355b7dcd">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>year_month</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b60fc325-b96e-4227-a1aa-4dafbed0bb8a">
+          <CubeDimensionID>Подразделение</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="394ec13d-e5f9-4758-a374-ff3b80efffe1">
+              <AttributeID>Подразделение</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1b161032-a9b1-489e-afb7-1efe43bd8f57">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3cc38cd0-dde9-4775-bc46-564663243402">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>Подразделение</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="813518c8-b787-49f3-9a28-ba9c82cff3b8">
+          <CubeDimensionID>Набор Статей</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9575cfb8-9a32-4b08-bc3e-e946e6e31eee">
+              <AttributeID>Набор Статей</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="824f9ac1-b1d4-478f-8ef7-b3a77d196ab0">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d1f8a3b3-2d15-4de8-9b44-fcd8c5e8c1d4">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>НаборСтатей</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2fd9da8d-cb84-43d8-bc49-f08e2a45018d">
+          <CubeDimensionID>Склады</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ecb78d70-904a-4e02-aa65-bfb1af78d412">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c2338cde-939a-4472-908f-f761889808ce">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1c4be500-3970-4b81-982c-3005f3c02f84">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>Склад</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4fb622ac-36d2-4ff7-bd56-f5ca9e3eca89">
+          <CubeDimensionID>Способы Доставки</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4fc9960c-c9f8-4248-934d-f2eb9a9f2f63">
+              <AttributeID>Способ Доставки</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="39a466a9-73e1-45f7-840b-007b7cffdbe3">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d8c580fc-3681-4d8e-8729-e624b884740a">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>СпособДоставки</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="78e25436-ad04-4256-a734-c24c3d6cdaf4">
+          <CubeDimensionID>Каналы Реализации</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ccc0e80f-6752-4b5b-94bb-f567e4afa192">
+              <AttributeID>Канал Реализации</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="93067172-9e0e-4bac-9aeb-9ecbf3cf006a">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cafe3d6d-1561-4737-b529-1a910d4aa740">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>КаналРеализации</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5a261166-c92c-452b-a10b-35676fd05ce0">
+          <CubeDimensionID>Номенклатура Вид-Подвид</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c12bbd9c-9c96-4f7e-98c8-6a9d878d4063">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="26faa511-6236-426d-8a30-1437240d4441">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c436f594-50e8-4feb-acdc-60b2f933ceae">
+                    <TableID>dbo_Expense_Затраты_по_реализациям_2025-11-25</TableID>
+                    <ColumnID>Номенклатура_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="44de4f2a-adfc-4b39-8fd6-73f4f9b5698e">
+    <DataSourceViewID>WH-dev</DataSourceViewID>
+  </Source>
+</Cube>
