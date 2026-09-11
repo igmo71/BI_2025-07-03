@@ -1,29 +1,29 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1cba0ae1-9b21-4bef-976a-e02eaefdd5b5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e0d2bb15-ed35-4d43-a988-4b4e403344df" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Выручка И Себестоимость Продаж - Себестоимость</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>v Выручка И Себестоимость Продаж Цены Закупочные</ID>
       <Partitions>
-        <Partition dwd:design-time-name="1c98a889-950f-417d-b468-8f2037d3f482">
+        <Partition dwd:design-time-name="35819794-68c8-473d-b7e8-65aea1dc44d3">
           <ID>v Выручка И Себестоимость Продаж Цены Закупочные</ID>
           <Name>v Выручка И Себестоимость Продаж Цены Закупочные</Name>
           <CreatedTimestamp>2024-09-13T08:16:19.523333Z</CreatedTimestamp>
           <LastSchemaUpdate>2025-06-10T06:14:25.596667Z</LastSchemaUpdate>
           <LastProcessed>2025-07-03T04:23:12.376667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="46a0728c-c1b1-4d69-99b1-065624a9b8b7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3ea35942-481b-4448-adc7-d772340a0c9f">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_v_ВыручкаИСебестоимостьПродаж_ЦеныЗакупочные</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="083d5f7b-4b68-4936-9ab6-88aa0412759c">
+          <ProactiveCaching dwd:design-time-name="884d2c58-d5fe-481b-80fc-de478bdcc509">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="c991c3fc-69b1-4ab0-a4eb-26c0dd98e4ff" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="95ccde4d-53de-49fe-be92-517892a7bb94" />
           </ProactiveCaching>
           <EstimatedSize>191698820</EstimatedSize>
         </Partition>
@@ -32,26 +32,26 @@
     <MeasureGroup>
       <ID>Currency Rates</ID>
       <Partitions>
-        <Partition dwd:design-time-name="f2a831f2-0224-433c-b40c-53c386ddce71">
+        <Partition dwd:design-time-name="37daed4b-44af-4d2b-82db-f356b56ba9b3">
           <ID>Currency Rates</ID>
           <Name>Currency Rates</Name>
           <CreatedTimestamp>2025-05-29T15:10:34.003333Z</CreatedTimestamp>
           <LastSchemaUpdate>2025-06-10T06:14:25.753333Z</LastSchemaUpdate>
           <LastProcessed>2025-07-03T04:01:25.513333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f6072c29-4412-4025-9774-a4a40119f2e5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4e390423-77ab-4530-9388-7e2df9313540">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_CurrencyRates</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="65b66ceb-35d5-407c-9f9b-3b2c6ea2bcdb">
+          <ProactiveCaching dwd:design-time-name="f3b802cb-fd49-4a0f-9e22-f305c5da601c">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="252621f9-527a-4128-9fad-f0b32c544d7a" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="deccf2c6-498a-4277-9999-36f740011e0a" />
           </ProactiveCaching>
           <EstimatedSize>2084</EstimatedSize>
         </Partition>
@@ -60,14 +60,14 @@
     <MeasureGroup>
       <ID>Catalog Партнеры Виды Деятельности</ID>
       <Partitions>
-        <Partition dwd:design-time-name="3a65c6c3-a7da-4038-a65a-97615bbb355e">
+        <Partition dwd:design-time-name="4505ca97-f551-4a13-95c0-74b5331da2dd">
           <ID>Catalog Партнеры Виды Деятельности</ID>
           <Name>Catalog Партнеры Виды Деятельности</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="add80cf6-4d8f-4aec-9190-415713736926">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ed7fb4d5-58a1-484d-a3af-847d10dab265">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
           </Source>
@@ -80,14 +80,14 @@
     <MeasureGroup>
       <ID>Information Register Тэги Партнеров</ID>
       <Partitions>
-        <Partition dwd:design-time-name="23859918-4857-494e-b3f3-a9f02e6d6649">
+        <Partition dwd:design-time-name="c3a1c5e0-4df3-4db9-bd02-888731425e05">
           <ID>Information Register Тэги Партнеров</ID>
           <Name>Information Register Тэги Партнеров</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="736ecfd9-82bc-43f7-9a50-5f9b0125d740">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ac1791d5-6ce1-4db3-a1b8-eaf8e14f9ee0">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_InformationRegister_ТэгиПартнеров</TableID>
           </Source>
@@ -100,14 +100,14 @@
     <MeasureGroup>
       <ID>Information Register Номенклатура Сегмента</ID>
       <Partitions>
-        <Partition dwd:design-time-name="47a9d57a-8f67-4ef6-9238-fa1fe7c7625a">
+        <Partition dwd:design-time-name="c74ad6df-4d28-4d4e-9ac2-5a17fc7ad76b">
           <ID>Information Register Номенклатура Сегмента</ID>
           <Name>Information Register Номенклатура Сегмента</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cf8e59df-d0e7-44b2-b2a4-fbacec16287b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f18e7cd5-7cfe-44e5-9321-9349312167c3">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_InformationRegister_НоменклатураСегмента</TableID>
           </Source>
